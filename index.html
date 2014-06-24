@@ -1,23 +1,37 @@
-<!DOCTYPE html>
+---
+layout: default
+title: Home
+---
 
-<html>
+<div class="posts">
+  {% for post in paginator.posts %}
+  <div class="post">
+    <h1 class="post-title">
+      <a href="{{ post.url }}">
+        {{ post.title }}
+      </a>
+    </h1>
 
-	<body>
+    <span class="post-date">{{ post.date | date_to_string }}</span>
 
-		<h1>garciparedes Website</h1>
+    {{ post.content }}
+  </div>
+  {% endfor %}
+</div>
 
-		<p>Site in construction...</p>
-
-		<p>GitHub: <a href="https://github.com/garciparedes" target="_blank">github.com/garciparedes</a> </p>
-
-		<p>LinkedIn: <a href="https://www.linkedin.com/in/garciparedes" target="_blank">linkedin.com/in/garciparedes</a> </p>
-
-		<p>Twitter: <a href="https://twitter.com/garciparedes" target="_blank">twitter.com/garciparedes</a> </p>
-
-		<p>Intagram: <a href="https://instagram.com/garciparedes" target="_blank">instagram.com/garciparedes</a> </p>
-
-		<p>Facebook: <a href="https://facebook.com/garciparedes" target="_blank">facebook.com/garciparedes</a> </p>
-
-	</body>
-
-</html>
+<div class="pagination">
+  {% if paginator.next_page %}
+    <a class="pagination-item older" href="/page{{paginator.next_page}}">Older</a>
+  {% else %}
+    <span class="pagination-item older">Older</span>
+  {% endif %}
+  {% if paginator.previous_page %}
+    {% if paginator.page == 2 %}
+      <a class="pagination-item newer" href="/">Newer</a>
+    {% else %}
+      <a class="pagination-item newer" href="/page{{paginator.previous_page}}">Newer</a>
+    {% endif %}
+  {% else %}
+    <span class="pagination-item newer">Newer</span>
+  {% endif %}
+</div>
