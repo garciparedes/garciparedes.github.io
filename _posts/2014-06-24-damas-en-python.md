@@ -21,5 +21,3 @@ Algunas de las funcionalidades que se han implementado son las siguientes:
 * Empezar nueva partida sin necesidad de volver a abrir el juego.
 
 El código del proyecto ha sido alojado en GitHub, para acceder a él pulsa [aquí](https://href.li/?https://github.com/AdriSergio/DamasPyhonGtk3).
-
-
