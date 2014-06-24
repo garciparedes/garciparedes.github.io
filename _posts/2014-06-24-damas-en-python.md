@@ -5,7 +5,7 @@ title: Damas en Python
 
 <img src="http://i59.tinypic.com/2u7my6r.png" width="100%" height="100%"  alt="Damas - Python">
 
-Buenas, os presento el juego de Damas que he creado junto con Adrián Calvo. Las reglas no son exactamente las originales, ya que ha sido una práctica para la universidad, por lo que hemos tenido que seguir las reglas que nos pedía el profesor y no las que nosotros habríamos preferido.
+Buenas, os presento el juego de Damas que he creado junto con <a href="https://github.com/adrianetete">Adrián Calvo</a>. Las reglas no son exactamente las originales, ya que ha sido una práctica para la universidad, por lo que hemos tenido que seguir las reglas que nos pedía el profesor y no las que nosotros habríamos preferido.
 
 La principal diferencia frente a unas damas clásicas reside en que se puede mover hacia atrás y no hay prioridad de movimiento, es decir, no es obligatorio comer en el caso de que se pueda. Además en lugar de seleccionar la casilla donde quedaría la ficha después de haber comido, se selecciona la casilla de la ficha que se quiere comer.
 
