@@ -3,7 +3,7 @@ layout: post
 title: Damas en Python
 ---
 
-<img src="http://i59.tinypic.com/2u7my6r.png" width="100%" height="100%"  alt="Damas - Python">
+<img src="https://camo.githubusercontent.com/9f9ccce543e6f4ab609617341e3115133853ddb4/687474703a2f2f6935392e74696e797069632e636f6d2f3275376d7936722e706e67" width="100%" height="100%"  alt="Damas - Python">
 
 Buenas, os presento el juego de Damas que he creado junto con <a href="https://github.com/adrianetete" target="_blank">Adrián Calvo</a>. Las reglas no son exactamente las originales, ya que ha sido una práctica para la universidad, por lo que hemos tenido que seguir las reglas que nos pedía el profesor y no las que nosotros habríamos preferido.
 
