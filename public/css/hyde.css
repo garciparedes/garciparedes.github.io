@@ -120,7 +120,7 @@ a.sidebar-nav-item:focus {
  * Align the contents of the site above the proper threshold with some margin-fu
  * with a 25%-wide `.sidebar`.
  */
-
+/*
 .content {
   padding-top:    4rem;
   padding-bottom: 4rem;
@@ -140,7 +140,7 @@ a.sidebar-nav-item:focus {
     margin-right: 4rem;
   }
 }
-
+*/
 
 /*
  * Reverse layout
