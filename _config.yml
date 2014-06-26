@@ -24,4 +24,4 @@ github:
   repo:           https://github.com/garciparedes/garciparedes.github.io
 
 # This is the list of pages to incldue in the header of the website.
-pages_list:       ['About', 'Archive', 'Programming', 'Music']
+pages_list:       ['Programming', 'Music', 'Photography', 'Downloads' ,'Archive', 'About']

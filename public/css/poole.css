@@ -273,12 +273,11 @@ tbody tr:nth-child(odd) th {
  */
 
 .masthead {
-  padding-top:    1rem;
-  padding-bottom: 1rem;
+  padding-top:    0.5rem;
+  padding-bottom: 0.5rem;
   position: fixed;
   background-color: #FFFFFF;
   top: 0;
-  left: 18rem;
   right: 0;
   border-bottom: 1px solid #eee;
 
