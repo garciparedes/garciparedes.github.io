@@ -121,7 +121,7 @@ a.sidebar-nav-item:focus {
  * with a 25%-wide `.sidebar`.
  */
 
-.content {
+.content-container {
   max-width: 38rem;
   padding-left:  1rem;
   padding-right: 1rem;
