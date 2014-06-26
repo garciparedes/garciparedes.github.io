@@ -123,12 +123,11 @@ a.sidebar-nav-item:focus {
 
 .content-container {
 
-  padding-left:  1rem;
-  padding-right: 1rem;
+  padding-left:  25rem;
+  padding-right: 7rem;
   margin-left:  auto;
   margin-right: auto;
-  position: relative;
-  left: 18rem;
+
 
 }
 
