@@ -280,6 +280,8 @@ tbody tr:nth-child(odd) th {
   top: 0;
   left: 18rem;
   right: 0;
+  border-bottom: 1px solid #eee;
+
 
 
 
@@ -336,8 +338,8 @@ tbody tr:nth-child(odd) th {
 
 /* Related posts */
 .related {
-  padding-top: 2rem;
-  padding-bottom: 2rem;
+  padding-top: 1em;
+  padding-bottom: 1rem;
   border-top: 1px solid #eee;
 }
 .related-posts {
