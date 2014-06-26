@@ -275,13 +275,13 @@ tbody tr:nth-child(odd) th {
 .masthead {
   padding-top:    1rem;
   padding-bottom: 1rem;
-  margin-bottom: 3rem;
+  position: relative;
+
 }
 .masthead-title {
   margin-top: 0;
   margin-bottom: 0;
   color: #505050;
-  position: relative;
 }
 .masthead-title a {
   color: #505050;
