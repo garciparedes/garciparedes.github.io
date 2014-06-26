@@ -131,6 +131,12 @@ a.sidebar-nav-item:focus {
   left: 18rem;
 
 }
+.content-container {
+  position: relative;
+  margin-left:  auto;
+  margin-right: auto;
+
+}
 
 /*
 
