@@ -120,7 +120,7 @@ a.sidebar-nav-item:focus {
  * Align the contents of the site above the proper threshold with some margin-fu
  * with a 25%-wide `.sidebar`.
  */
-
+/*
 .content-container {
   position: relative;
   max-width: 38rem;
@@ -132,7 +132,7 @@ a.sidebar-nav-item:focus {
 
 }
 
-
+*/
 /*
 
 @media (min-width: 48rem) {
