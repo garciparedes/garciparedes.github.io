@@ -129,6 +129,8 @@ a.sidebar-nav-item:focus {
   margin-right: auto;
 }
 
+/*
+
 @media (min-width: 48rem) {
   .content {
     max-width: 38rem;
@@ -144,6 +146,7 @@ a.sidebar-nav-item:focus {
   }
 }
 
+*/
 
 /*
  * Reverse layout
