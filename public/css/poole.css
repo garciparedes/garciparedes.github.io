@@ -278,8 +278,9 @@ tbody tr:nth-child(odd) th {
   position: fixed;
   background-color: #FFFFFF;
   top: 0;
-  left: 0;
+  left: 18rem;
   right: 0;
+
 
 
 }
@@ -287,6 +288,8 @@ tbody tr:nth-child(odd) th {
   margin-top: 0;
   margin-bottom: 0;
   color: #505050;
+  text-align: center;
+
 }
 .masthead-title a {
   color: #505050;
@@ -308,7 +311,7 @@ tbody tr:nth-child(odd) th {
 
 .page,
 .post {
-  margin-bottom: 4em;
+  margin-bottom: 7em;
 }
 
 /* Blog post or page title */
