@@ -303,7 +303,6 @@ tbody tr:nth-child(odd) th {
 .page,
 .post {
   margin-bottom: 4em;
-  vertical-align: middle;
 }
 
 /* Blog post or page title */

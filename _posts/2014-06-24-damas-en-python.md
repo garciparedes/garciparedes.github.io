@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Damas en Python
+categories: [development, python]
 ---
 
 <img src="https://camo.githubusercontent.com/9f9ccce543e6f4ab609617341e3115133853ddb4/687474703a2f2f6935392e74696e797069632e636f6d2f3275376d7936722e706e67" width="100%" height="100%"  alt="Damas - Python">
