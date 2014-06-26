@@ -122,11 +122,13 @@ a.sidebar-nav-item:focus {
  */
 
 .content-container {
+  position: relative;
   max-width: 38rem;
-  padding-left:  18rem;
+  padding-left:  1rem;
   padding-right: 1rem;
   margin-left:  auto;
   margin-right: auto;
+  left: 18rem;
 
 }
 
