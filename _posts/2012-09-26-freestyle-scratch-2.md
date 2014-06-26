@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Freestyle Scratch - 2 (testing fisheye)
+title: Freestyle Scratch 2 (testing fisheye)
 categories: [music, scratch]
 ---
 

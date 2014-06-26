@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Freestyle Scratch #3
+title: Freestyle Scratch 3
 categories: [music, scratch]
 ---
 
