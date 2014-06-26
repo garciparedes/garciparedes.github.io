@@ -49,11 +49,11 @@
         // if scrolled more than the navigation, change its 
                 // position to fixed to float to top, otherwise change 
                 // it back to relative
-        if (scroll_top > floating_navigation_offset_top) { 
+        /if (scroll_top > floating_navigation_offset_top) { 
             $('#masthead-title').css({ 'position': 'fixed', 'top':0});
         } else {
             $('#masthead-title').css({ 'position': 'relative' }); 
-        }   
+        }/   
     };
      
     // run function on load
