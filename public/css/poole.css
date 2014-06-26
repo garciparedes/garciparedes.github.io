@@ -278,6 +278,7 @@ tbody tr:nth-child(odd) th {
   position: fixed;
   background-color: #FFFFFF;
   top: 0;
+  left: 18rem;
   right: 0;
   border-bottom: 1px solid #eee;
 
