@@ -251,7 +251,20 @@ tbody tr:nth-child(odd) th {
 }
 
 
+/*
+ * Container
+ *
+ * Center the page content.
+ */
 
+.container {
+  max-width: 38rem;
+  padding-left:  1rem;
+  padding-right: 1rem;
+  margin-left:  auto;
+  margin-right: auto;
+  text-align: center;
+}
 
 
 /*
@@ -303,6 +316,7 @@ tbody tr:nth-child(odd) th {
 .post {
   margin-top: 4em;
   margin-bottom: 4em;
+  text-align: left;
 }
 
 /* Blog post or page title */
