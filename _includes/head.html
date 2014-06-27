@@ -31,9 +31,14 @@
 
 
   <!-- Fitvid.js -->
+  <script src="path/to/jquery.min.js"></script>
   <script src="path/to/jquery.fitvids.js"></script>
   <script>
-      $(".container").fitVids();
+    $(document).ready(function(){
+      // Target your .container, .wrapper, .post, etc.
+      $(".post").fitVids();
+      $(".page").fitVids();
+    });
   </script>
 
 
