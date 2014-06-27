@@ -34,12 +34,23 @@
 html {
   font-family: "PT Sans", Helvetica, Arial, sans-serif;
 }
+}
 @media (min-width: 48rem) {
+  html {
+    font-size: 12px;
+  }
+}
+@media (min-width: 64rem) {
+  html {
+    font-size: 14px;
+  }
+}
+@media (min-width: 74rem) {
   html {
     font-size: 16px;
   }
 }
-@media (min-width: 58rem) {
+@media (min-width: 90rem) {
   html {
     font-size: 20px;
   }
@@ -55,7 +66,7 @@ html {
 
 .sidebar {
   text-align: center;
-  padding: 2rem 1rem;
+  padding: 4rem 1rem;
   color: rgba(255,255,255,.5);
   background-color: #202020;
 }
