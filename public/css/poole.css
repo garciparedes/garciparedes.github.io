@@ -47,16 +47,7 @@ body {
   padding: 0;
 }
 
-html {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 16px;
-  line-height: 1.5;
-}
-@media (min-width: 38rem) {
-  html {
-    font-size: 20px;
-  }
-}
+
 
 body {
   color: #515151;
@@ -275,8 +266,6 @@ tbody tr:nth-child(odd) th {
 
 @media (min-width: 48rem) {
   .masthead {
-    padding-top:    0.5rem;
-    padding-bottom: 0.5rem;
     position: fixed;
     background-color: #FFFFFF;
     top: 0;
@@ -289,8 +278,6 @@ tbody tr:nth-child(odd) th {
 
 @media (max-width: 48rem) {
   .masthead {
-    padding-top:    0.5rem;
-    padding-bottom: 0.5rem;
     position: fixed;
     background-color: #FFFFFF;
     top: 0;
