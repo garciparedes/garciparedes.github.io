@@ -4,7 +4,7 @@ title: Propósitos, propósitos y más propósitos
 categories: [general]
 ---
 
-¡Buenas a todos! Debido a que ya casi he terminado los exámenes (¡POR FIN!) y ahora tengo más tiempo libre, me he propuesto no quedarme todo el verano tumbado a la bartola sin hacer nada.  Para ello voy a centrarme en realizar proyectos que aunque no sean demasiado grandes o requieran de algoritmos complejos (para eso ya está la carrera o el año que viene :blush: ) me mantengan ocupados en esta temporada estival. Así además de experimentar e ir adquiriendo conocimientos, no pierdo la práctica en esto de picar código.
+¡Buenas a todos! Debido a que ya casi he terminado los exámenes (¡POR FIN!) y ahora tengo más tiempo libre, me he propuesto no quedarme todo el verano tumbado a la bartola sin hacer nada.  Para ello voy a centrarme en realizar proyectos que aunque no sean demasiado grandes o requieran de algoritmos complejos (para eso ya está la carrera o el año que viene) me mantengan ocupados en esta temporada estival. Así además de experimentar e ir adquiriendo conocimientos, no pierdo la práctica en esto de picar código.
 	
 Lo primero que he hecho ha sido, la creación de esta web, que no me ha llevado mucho tiempo debido al uso de la plantilla Hyde, pero aún así he modificado distintos elementos de la misma. La verdad es que todavía quiero añadir cosas y también terminar de rellenar secciones que todavía no están acabadas por falta de tiempo. Cuando lo haga me gustaría escribir otro post contando como lo hice y qué cosas modifiqué respecto de la plantilla original.
 	
