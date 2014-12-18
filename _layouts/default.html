@@ -1,33 +1,24 @@
 <!DOCTYPE html>
-
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-us">
+<html>
 
   {% include head.html %}
 
   <body>
 
-    {% include sidebar.html %}
+    {% include header.html %}
 
-    <div class="content container">
+    <!-- content start -->
 
-      <div class="containercontent">
-      <div class="masthead">
-        <h3 class="masthead-title">
-          <a href="/">Home</a>
-
-          {% for page_name in site.pages_list %}
-              &nbsp;&nbsp;&nbsp;<small><a href="/{{ page_name | downcase }}">{{ page_name }}</a></small>
-          {% endfor %}
-
-        </h3>
+    <div class="page-content">
+      <div class="wrapper">
+        {{ content }}
       </div>
-
-      {{ content }}
-
     </div>
 
-    {% include resizable_videos_script.html %}
+    <!-- content end -->
 
+    {% include footer.html %}
+    {% include javascripts.html %}
 
   </body>
 

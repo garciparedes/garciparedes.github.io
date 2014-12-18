@@ -1,27 +1,56 @@
-# Dependencies
-markdown:         redcarpet
-pygments:         true
+# Build settings
+markdown: redcarpet
+highlighter: pygments
 
-# Permalinks
-permalink:        pretty
+# Site settings
+title: "garciparedes"
+description: > # 'Computer engineer student, developer, scratcher, beatmaker, amateur photographer and frustrated gamer.'
 
-# Setup
-title:            garciparedes
-tagline:          'Personal Website'
-description:      'Computer engineer student, developer, scratcher, beatmaker, amateur photographer and frustrated gamer.'
-url:              http://garciparedes.github.io
+email: garciparedes@gmail.com
+#blog logo
+logo: "/assets/images/df_logo.jpg"
+# blog cover
+cover: "/assets/images/cover.jpg"
 
-author:
-  name:           'Sergio Garcia'
-  url:            https://twitter.com/garciparedes
+name: 'Sergio Garcia'
+author: 'Sergio Garcia'
+author_image: "/assets/images/author.jpg"
 
-paginate:         5
+paginate:	5
 
-# Custom vars
-version:          2.0.0
+url: "http://garciparedes.github.io/" # the base hostname & protocol for your site
+baseurl: ""
 
-github:
-  repo:           https://github.com/garciparedes/garciparedes.github.io
 
 # This is the list of pages to incldue in the header of the website.
 pages_list:       ['Programming', 'Music', 'Photography', 'Downloads' , 'About', 'Archive']
+
+# social icons and sharing options
+social:
+  - icon:	twitter
+    url:	https://twitter.com/garciparedes
+    desc: Follow me on twitter
+    share_url: http://twitter.com/share
+    share_title: ?text=
+    share_link: "&amp;url="
+
+#  - icon:	facebook
+#    url:	https://facebook.com/???
+#    desc: Connect with me facebook
+#    share_url: //www.facebook.com/sharer.php
+#    share_title: ?t=
+#    share_link: "&amp;u="
+
+  - icon:	github
+    url:	https://github.com/garciparedes
+    desc:	Fork me on github
+    share_url:
+    share_title:
+    share_link:
+
+#  - icon:	google-plus
+#    url:	https://google.com/???
+#    desc:	Add me on google+
+#    share_url:
+#    share_title:
+#    share_link:
