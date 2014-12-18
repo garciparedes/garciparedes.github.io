@@ -1,27 +1,32 @@
-# Dependencies
-markdown:         redcarpet
-pygments:         true
+# ----------------------- #
+#      Main Configs       #
+# ----------------------- #
 
-# Permalinks
-permalink:        pretty
+url: http://garciparedes.github.io/
+title: garciparedes
+email: garciparedes@gmail.com
+description: > # 'Computer engineer student, developer, scratcher, beatmaker, amateur photographer and frustrated gamer.'
 
-# Setup
-title:            garciparedes
-tagline:          'Personal Website'
-description:      'Computer engineer student, developer, scratcher, beatmaker, amateur photographer and frustrated gamer.'
-url:              http://garciparedes.github.io
+# ----------------------- #
+#    Jekyll & Plugins     #
+# ----------------------- #
 
-author:
-  name:           'Sergio Garcia'
-  url:            https://twitter.com/garciparedes
+# Build settings
+markdown: kramdown
+permalink: pretty
 
-paginate:         5
+# ----------------------- #
+#   3rd Party Settings    #
+# ----------------------- #
 
-# Custom vars
-version:          2.0.0
-
-github:
-  repo:           https://github.com/garciparedes/garciparedes.github.io
 
 # This is the list of pages to incldue in the header of the website.
 pages_list:       ['Programming', 'Music', 'Photography', 'Downloads' , 'About', 'Archive']
+
+social:
+  - title: twitter
+    url: https://twitter.com/garciparedes
+  - title: github
+    url: https://github.com/garciparedes
+  - title: linkedin
+    url: https://www.linkedin.com/in/garciparedes
