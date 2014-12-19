@@ -5,7 +5,7 @@ date:   2014-12-18 20:34:25
 
 categories: [general]
 tags: news, information
-image: /assets/article_images/2014-12-18-ConRetrasoPeroATiempo/andy_lego.JPG
+image: /assets/article_images/2014-12-18-ConRetrasoPeroATiempo/andy_lego.jpg
 ---
 
 Después de tantos meses sin postear ya he olvidado como empezar con esto, si es que llegué a aprenderlo (que lo dudo), pero me jugaría un pié a que cualquiera, por muy bueno que sea en esto se encontraría en esta misma situación. Quiero decir, ¿qué le cuentas a alguien al que "prometiste" postear periodicamente cuando entre tus dos últimos post hay más de seis meses de diferencia? La verdad es que yo no me lo tomaría en serio. "Quizás la próxima vez que este tío postee algo estaré en una caja de pino" pensaría indignado.
