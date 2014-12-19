@@ -3,32 +3,29 @@ markdown: redcarpet
 highlighter: pygments
 
 # Site settings
-title: "garciparedes"
-description: > # 'Computer engineer student, developer, scratcher, beatmaker, amateur photographer and frustrated gamer.'
+title: "Mediator"
+description: > # this means to ignore newlines until "email:"
+   A Jekyll theme - Medium inspired
 
-email: garciparedes@gmail.com
+email: a-mail@mail.mail
 #blog logo
 logo: "/assets/images/df_logo.jpg"
 # blog cover
-cover: "/assets/images/cover.jpg"
+cover: "/assets/images/cA4aKEIPQrerBnp1yGHv_IMG_9534-3-2.jpg"
 
-name: 'Sergio Garcia'
-author: 'Sergio Garcia'
+name: 'Dirk Fabisch'
+author: 'Dirk Fabisch'
 author_image: "/assets/images/author.jpg"
 
 paginate:	5
 
-url: "http://garciparedes.github.io/" # the base hostname & protocol for your site
+url: "http://myblog.***.***" # the base hostname & protocol for your site
 baseurl: ""
-
-
-# This is the list of pages to incldue in the header of the website.
-pages_list:       ['Programming', 'Music', 'Photography', 'Downloads' , 'About', 'Archive']
 
 # social icons and sharing options
 social:
   - icon:	twitter
-    url:	https://twitter.com/garciparedes
+    url:	https://twitter.com/dirkfabisch
     desc: Follow me on twitter
     share_url: http://twitter.com/share
     share_title: ?text=
@@ -42,7 +39,7 @@ social:
 #    share_link: "&amp;u="
 
   - icon:	github
-    url:	https://github.com/garciparedes
+    url:	https://github.com/dirkfabisch
     desc:	Fork me on github
     share_url:
     share_title:
