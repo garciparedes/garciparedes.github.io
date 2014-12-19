@@ -22,7 +22,6 @@ No me voy a engañar, yo habría pensado cualquiera de estas cosas, casi con tot
 
 Pero como bién he dicho "habría" por que en estos meses me he dado cuenta de que el tiempo es realmente limitado, y más cuando haces algo que te gusta. Juro que desde que escribí el post anterior, hayá por julio he estado pocos días desocupado, por que no hay cosa que lleve más tiempo que el aprendizaje.
 
-<img src="/assets/andy_lego.jpg" width="50%" height="50%" align="right" >
 
 Si me llegán a decir hace 2 años que  iba a estar todo un día entero en la biblioteca leyendo, estudiando y "trabajando", haciendolo más por gusto que por obligación habría llamado loco al insensato. Pero resulta que ese loco habría tenido razón, tanto que últimamente sucede casi todos los días. Y es que es algo dificil de explicar, pero la verdad es que lo paso bien así, aunque a veces no lo parezca. La sensación que tengo despues de conseguir hacer algo que me cuesta llegar a abstraer en la cabeza es algo que no se puede comparar. Es por eso que todo ese esfuerzo compensa, y compensa demasiado, esa inyección de dopamina en el cerebro cuando consigues escribir algo que el año pasado te ocupaba 20 líneas  pero que hoy haces en 5 (o incluso menos) es incomparable.
 
