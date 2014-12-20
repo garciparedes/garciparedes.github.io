@@ -36,12 +36,12 @@ public Proyecto programar() {
 2. Esta es la fase en la que mejor lo solemos pasar. Dependiendo del caso, la experiencia y esas cosas su duración puede variar significativamente. Esta etapa aunque entretenida no nos aporta nada como programadores, es decir, nos limitamos a hacer lo que ya sabemos hacer. Alguno se habrá dado cuenta ya de cual es la fase siguiente. Efectivamente, la de frustración (cuando llegas a la situación de no conseguir resolver un problema).
 
 
-![alt text][frustraccion]
+![Frustracción][frustraccion]
 
 3. Esta es la etapa en la que más se oyen gritos y llantos. También es común que mandar recuerdos a los familiares del personaje que propuso realizar ese proyecto (ya sea tu jefe o profesor) aunque en el caso de que sea por iniciativa propia esta parte se suele omitir (no en todos los casos). A mi personalmente es la etapa que más me gusta. Es cuando mejor se desarrolla la creatividad y más se aprende, esa etapa de intentar solventar un problema que de primeras te parece imposible de resolver, es cuando toca hacer visitas frecuentes a StackOverFlow, documentarte en blogs especializados, pensar y pensar para conseguir resolver el dilema. Generalmente esta etapa y la anterior se repiten varias veces hasta finalizar el proyecto a modo de bucle do-while. Pero tras la finalización de este bucle se llega a la ultima etapa.
 
 
-![alt text][satisfaccion]
+![Satisfacción][satisfaccion]
 
 4. Es esta la mejor de todas, la de satisfacción por haber conseguido los objetivos. Ahora es cuando todo funciona de manera apropiada y te crees (perdón por la expresión) el "puto amo". Estás feliz y te sientes bien, como en una nube. Esta sensación es la que engancha y te hace sentir que esto es lo que quieres hacer el resto de tu vida. Tengo que aclarar que dependiendo del caso esta etapa puede verse truncada por la persona que te propuso realizar el proyecto por que no se ajusta totalmente con lo que realmente quería, pero eso creo que requiere un post a parte para tratar ese polémico tema.
 
@@ -51,6 +51,6 @@ A mi juicio esas son las etapas que todo programador que se precie debería sent
 
 Dicho esto no quiero que se me tache de talibán, ya que yo estoy hablando de lo que sería ideal, no de la realidad laboral, que de momento no conozco, al fin y al cabo soy un simple estudiante de informática que solo quería contar su punto de vista respecto de este tema que tan interesante me parece.
 
-[frustraccion]: /assets/article_images/2014-12-20-EtapasDeUnaRelacion/frustraccion.jpg "Frustracción"
-[satisfaccion]: /assets/article_images/2014-12-20-EtapasDeUnaRelacion/satisfaccion.jpg "Satisfaccion"
+[frustraccion]: /assets/article_images/2014-12-20-EtapasDeUnaRelacion/frustraccion.jpg align="center" "Frustracción"
+[satisfaccion]: /assets/article_images/2014-12-20-EtapasDeUnaRelacion/satisfaccion.jpg align="center" "Satisfacción"
 
