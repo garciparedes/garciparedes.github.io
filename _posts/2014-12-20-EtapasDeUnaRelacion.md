@@ -12,7 +12,7 @@ Existe una extraña relación de amor-odio en el trabajo de un programador que q
 
 
 ```java
-public Proyecto programar() {
+public Proyecto realizarProyecto() {
 
 	ilusion();
 
