@@ -3,9 +3,6 @@ layout: page
 title: Music
 permalink: /music/
 ---
-
-
-
 ## Scratch Videos:
 <iframe width="640" height="360" src="//www.youtube.com/embed/videoseries?list=PL814C9DE985130CC7" frameborder="0" allowfullscreen></iframe>
 
