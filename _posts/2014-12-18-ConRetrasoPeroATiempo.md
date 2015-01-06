@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Con retraso, pero a tiempo.
+title: Con retraso, pero a tiempo
 date:   2014-12-18 20:34:25
 
 categories: [general]

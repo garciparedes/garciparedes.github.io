@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Etapas de una relación.
+title: Etapas de una relación
 date:   2014-12-20 16:35:00
 
 categories: [general]
