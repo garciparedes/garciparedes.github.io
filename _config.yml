@@ -36,23 +36,27 @@ footer:
   social: Around the Web
   credits: Credits
 
+cv-link: https://github.com/garciparedes/CV/raw/master/cv-sergio-garciaprado.pdf
+
+about:
+    description: I'm a student of Computer Engineering with a great desire to learn. I especially like the Computing branch, ie, data structures, algorithms, and everything that has to do with scheduling things. Although I do not close the door to anything.
+
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
-  - title: twitter
-    url: http://twitter.com/garciparedes
-  - title: facebook
-    url:
-  - title: stack-overflow
-    url: http://stackoverflow.com/questions/tagged/jekyll
-  - title: bitbucket
-    url: http://bitbucket.org/garciparedes
   - title: github
-    url: http://github.com/garciparedes
+    url: https://github.com/garciparedes
+  - title: linkedin
+    url: https://linkedin.com/in/garciparedes
+  - title: send
+    url: https://telegram.me/garciparedes
+  - title: twitter
+    url: https://twitter.com/garciparedes
+  - title: facebook
+    url: https://facebook.com/garciparedes
 
 # Postal address (add as many lines as necessary)
 address:
-  - line: 3481 Melrose Place
-  - line: Beverly Hills, CA 90210
+  - line: Palencia, Spain
 
 # Credits content
 credits: 'Freelancer is a free to use, open source Bootstrap theme created by <a href="http://startbootstrap.com">Start Bootstrap</a>.'

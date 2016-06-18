@@ -8,6 +8,13 @@
                         <span class="name">{{ site.title }}</span>
                         <hr class="star-light">
                         <span class="skills">{{ site.skills }}</span>
+                        <ul class="list-inline">
+                            {% for network in site.social %}
+                            <li>
+                                <a target="_blank" href="{{ network.url }}" class="btn-social btn-outline"><i class="fa fa-fw fa-{{ network.title }}"></i></a>
+                            </li>
+                            {% endfor %}
+                        </ul>
                     </div>
                 </div>
             </div>
