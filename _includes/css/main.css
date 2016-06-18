@@ -4,6 +4,19 @@
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
  */
 
+.portfolio-item .square {
+    float:left;
+    position: relative;
+    width: 100%;
+    padding-bottom : 75%; /* = width for a 1:1 aspect ratio */
+    margin:0 0 1.66%;
+    overflow:hidden;
+}
+
+.portfolio-item .content {
+    position:absolute;
+}
+
 body {
     overflow-x: hidden;
 }
@@ -203,7 +216,6 @@ section.success {
     display: block;
     position: relative;
     margin: 0 auto;
-    max-width: 400px;
 }
 
 #portfolio .portfolio-item .portfolio-link .caption {
