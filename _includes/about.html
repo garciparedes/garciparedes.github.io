@@ -6,16 +6,62 @@
                     <h2>About</h2>
                     <hr class="star-light">
                 </div>
-            </div>
-            <div class="row">
                 <div class="col-lg-8 col-lg-offset-2">
                     <p>{{ site.about.description }}</p>
                 </div>
+
+                {%  if site.about.work %}
+                <div class="col-lg-8 col-lg-offset-2">
+                    <h3 class="text-center" >Work</h3>
+                    {%  for work in site.about.work %}
+                    <div class="row">
+                        <div class="col-md-3">
+                        <p>{{ work.time }}</p>
+                        </div>
+                        <div class="col-md-9">
+                            <p><strong>{{ work.title }}</strong></p>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-md-9 col-md-offset-3">
+                            <p>{{ work.company-name}}</p>
+                        </div>
+                    </div>
+                    {%  endfor %}
+                </div>
+                {%  endif %}
+
+                {%  if site.about.education %}
+                <div class="col-lg-8 col-lg-offset-2">
+                    <h3 class="text-center" >Education</h3>
+                    {%  for edu in site.about.education %}
+                    <div class="row">
+                        <div class="col-md-3">
+                        <p>{{ edu.time }}</p>
+                        </div>
+                        <div class="col-md-9">
+                            <p><strong>{{ edu.degree }}</strong></p>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-md-9 col-md-offset-3">
+                            <p>{{ edu.school}}</p>
+                        </div>
+                    </div>
+                    {%  endfor %}
+                </div>
+                {%  endif %}
+
+
+
                 <div class="col-lg-8 col-lg-offset-2 text-center">
                     <a target="_blank" href="{{ site.cv-link }}" class="btn btn-lg btn-outline">
                         <i class="fa fa-download"></i> Download my CV
                     </a>
                 </div>
             </div>
+
         </div>
     </section>

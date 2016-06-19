@@ -40,6 +40,11 @@ cv-link: https://github.com/garciparedes/CV/raw/master/cv-sergio-garciaprado.pdf
 
 about:
     description: I'm a student of Computer Engineering with a great desire to learn. I especially like the Computing branch, ie, data structures, algorithms, and everything that has to do with scheduling things. Although I do not close the door to anything.
+    education:
+        -   time: 2013 - 2017
+            degree: Bachelor in Computer Engineering, mention in Computing.
+            school: University of Valladolid, Spain.
+    work:
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
@@ -59,7 +64,7 @@ address:
   - line: Palencia, Spain
 
 # Credits content
-credits: 'Freelancer is a free to use, open source Bootstrap theme created by <a href="http://startbootstrap.com">Start Bootstrap</a>.'
+credits: 'Freelancer is a free to use, open source Bootstrap theme created by <a href="http://startbootstrap.com">Start Bootstrap</a>. Improved and adapted by <a target="_blank" href="https://github.com/garciparedes/garciparedes.github.io/commits/master">@garciparedes</a>'
 
 # Build settings
 markdown: kramdown
