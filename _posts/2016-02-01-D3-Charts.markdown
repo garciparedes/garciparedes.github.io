@@ -1,0 +1,13 @@
+---
+layout: default
+modal-id: 5
+date: 2016-02-01
+img: charts.png
+alt: image-alt
+project-date: February 2016
+client: Classwork for University of Valladolid
+client-link: https://github.com/garciparedes/DatosMedioambientalesCYL
+category: Web Development
+description:
+
+---

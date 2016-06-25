@@ -1,54 +1,100 @@
-# Build settings
-markdown: redcarpet
-highlighter: pygments
-
 # Site settings
-title: "garciparedes"
-description: > # 'Computer engineer student, developer, scratcher, beatmaker, amateur photographer and frustrated gamer.'
-
+title: Sergio Garcia Prado
 email: garciparedes@gmail.com
+url: http://garciparedes.me
+description: "I'm student of Computer Engineering with a great desire to learn."
+skills: "Junior Computer Scientist"
+meta_author: GarciaPrado Sergio
 
-#blog logo
-logo: "/assets/images/logo.jpg"
+# Google webmaster tools
+google_verify:
 
-# blog cover
-cover: "/assets/images/cover.jpg"
+# https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
+bing_verify:
 
-name: 'Sergio Garcia'
-author: 'Sergio Garcia'
-author_image: "/assets/images/author.jpg"
+# Contact form:
+# - static : pass through formspree.io to validate email sending
+# - disqus : replace contact form by disqus thread
+# - comment the line below if you want to stick with the default PHP contact form
+contact: static
 
-paginate:	5
+# If you use disqus you need disqus shortname
+# https://help.disqus.com/customer/portal/articles/466208
+disqus_shortname: garciparedes
 
-url: "http://garciparedes.github.io/" # the base hostname & protocol for your site
-baseurl: ""
+# Color settings (hex-codes without the leading hash-tag)
+color:
+  primary: 388E3C #80B3FF
+  primary-rgb: "56,142,60" #"128,179,255"
+  secondary: 4CAF50 #FD6E8A
+  secondary-dark: 215524 #A2122F
 
-# social icons and sharing options
+# Footer settings
+footer:
+  copyright: Sergio García Prado
+  location: Location
+  social: Around the Web
+  credits: Credits
+
+cv-link: https://github.com/garciparedes/CV/raw/master/cv-sergio-garciaprado.pdf
+
+about:
+    description: I'm a student of Computer Engineering with a great desire to learn. I especially like the Computing branch, ie, data structures, algorithms, and everything that has to do with scheduling things. Although I do not close the door to anything.
+    education:
+        -   time: 2013 - 2017
+            degree: Bachelor's degree in Computer Science, Mention in Computation.
+            school: University of Valladolid, Spain.
+    work:
+
+# Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
-  - icon:	twitter
-    url:	https://twitter.com/garciparedes
-    desc: Follow me on twitter
-    share_url: http://twitter.com/share
-    share_title: ?text=
-    share_link: "&amp;url="
+  - title: github
+    url: https://github.com/garciparedes
+  - title: linkedin
+    url: https://linkedin.com/in/garciparedes
+  - title: send
+    url: https://telegram.me/garciparedes
+  - title: twitter
+    url: https://twitter.com/garciparedes
+  - title: facebook
+    url: https://facebook.com/garciparedes
 
-  - icon:	facebook
-    url:	https://facebook.com/garciparedes
-    desc: Connect with me facebook
-    share_url: //www.facebook.com/sharer.php
-    share_title: ?t=
-    share_link: "&amp;u="
 
-  - icon:	github
-    url:	https://github.com/garciparedes
-    desc:	Fork me on github
-    share_url:
-    share_title:
-    share_link:
+programing-skills:
+    - name: Java
+      percent: 90
+    - name: Python
+      percent: 60
+    - name: JS
+      percent: 70
+    - name: Latex
+      percent: 75
+    - name: Android
+      percent: 75
+    - name: C
+      percent: 65
 
-  - icon:	google-plus
-    url:	https://google.com/+SergioGarcía-garciparedes
-    desc:	Add me on google+
-    share_url:
-    share_title:
-    share_link:
+interests:
+    - name: Cars
+      percent: 95
+    - name: Cycling
+      percent: 75
+    - name: Turntablism
+      percent: 85
+    - name: Rap
+      percent: 95
+    - name: Logic Problems
+      percent: 90
+    - name: Cooking
+      percent: 70
+
+# Postal address (add as many lines as necessary)
+address:
+  - line: Palencia, Spain
+
+# Credits content
+credits: 'Freelancer is a free to use, open source Bootstrap theme created by <a href="http://startbootstrap.com">Start Bootstrap</a>. Improved and adapted by <a target="_blank" href="https://github.com/garciparedes/garciparedes.github.io/commits/master">@garciparedes</a>'
+
+# Build settings
+markdown: kramdown
+permalink: pretty
