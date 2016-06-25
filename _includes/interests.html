@@ -6,17 +6,29 @@
                     <h2>Interests</h2>
                     <hr class="star-light">
                 </div>
-                <div class="col-lg-8 col-lg-offset-2">
+            </div>
 
+            <div class="row">
 
+                {% for interest in site.interests %}
+                <div class="col-xs-6 col-sm-4 col-md-3 col-lg-2">
 
+                    <div class="inner-content text-center">
 
+                        <div class="c100 p{{interest.percent}} green center">
+                            <span>{{interest.percent}}%</span>
+                            <div class="slice">
+                                <div class="bar"></div>
+                                <div class="fill"></div>
+                            </div>
+                        </div>
 
+                        <h3>{{interest.name}}</h3>
 
-
-
-
+                    </div>
                 </div>
+                {% endfor %}
+
             </div>
         </div>
     </section>
