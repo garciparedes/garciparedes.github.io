@@ -4,6 +4,10 @@
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
  */
 
+.inner-content{
+    margin: 0 0 90px 0;
+}
+
 .portfolio-item .square {
     float:left;
     position: relative;

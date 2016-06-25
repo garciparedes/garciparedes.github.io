@@ -59,6 +59,22 @@ social:
   - title: facebook
     url: https://facebook.com/garciparedes
 
+
+programing-skills:
+    - name: Java
+      percent: 90
+    - name: Python
+      percent: 60
+    - name: JavaScript
+      percent: 70
+    - name: HTML/CSS
+      percent: 70
+    - name: Latex
+      percent: 75
+    - name: Android
+      percent: 75
+    - name: C
+      percent: 65
 # Postal address (add as many lines as necessary)
 address:
   - line: Palencia, Spain

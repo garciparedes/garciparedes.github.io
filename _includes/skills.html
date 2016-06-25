@@ -1,4 +1,4 @@
- <!-- About Section -->
+ <!-- Skills Section -->
     <section id="skills">
         <div class="container">
             <div class="row">
@@ -6,18 +6,34 @@
                     <h2>Skills</h2>
                     <hr class="star-primary">
                 </div>
-                <div class="col-lg-8 col-lg-offset-2">
+
+            </div>
+
+            <div class="row">
+
+                {% for skill in site.programing-skills %}
+                <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
 
 
 
+                    <div class="inner-content text-center">
 
+                        <div class="c100 p{{skill.percent}} big green center">
+                            <span>{{skill.percent}}%</span>
+                            <div class="slice">
+                                <div class="bar"></div>
+                                <div class="fill"></div>
+                            </div>
+                        </div>
 
+                        <h3>{{skill.name}}</h3>
 
-
-
+                    </div>
 
 
                 </div>
+                {% endfor %}
+
             </div>
         </div>
     </section>
