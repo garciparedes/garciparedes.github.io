@@ -1,7 +1,7 @@
 ---
 layout: default
 modal-id: 12
-date: 2016-01-01
+date: 2016-02-01
 img: lcs.png
 alt: image-alt
 project-date: January 2016
