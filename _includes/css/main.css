@@ -99,6 +99,10 @@ hr.star-primary:after {
     margin: 0 auto;
 }
 
+.img-profile {
+  max-width: 256px;
+}
+
 header {
     text-align: center;
     color: #fff;
