@@ -155,7 +155,7 @@ header .intro-text .skills {
     }
 
     .navbar-fixed-top .navbar-brand {
-        visibility: hidden;
+        opacity: hidden;
         font-size: 1.2em;
 
         -webkit-transition: all .3s;
@@ -168,7 +168,7 @@ header .intro-text .skills {
     }
 
     .navbar-fixed-top.navbar-shrink .navbar-brand {
-        visibility: visible;
+        opacity: 1;
     }
 }
 
@@ -192,6 +192,7 @@ header .intro-text .skills {
 
 .navbar-brand {
     font-size: 16px;
+    transition: opacity 300ms;
 }
 
 .navbar-default,
