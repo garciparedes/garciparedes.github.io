@@ -155,7 +155,7 @@ header .intro-text .skills {
     }
 
     .navbar-fixed-top .navbar-brand {
-        opacity: hidden;
+        opacity: 0;
         font-size: 1.2em;
 
         -webkit-transition: all .3s;
