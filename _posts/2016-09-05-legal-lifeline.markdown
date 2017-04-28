@@ -6,7 +6,7 @@ img: legal-lifeline.png
 alt: image-alt
 project-date: September 2016
 client: Legal Lifeline
-client-link:
+client-link:https://www.legallifeline.com
 category: Web Development
 description:
 
