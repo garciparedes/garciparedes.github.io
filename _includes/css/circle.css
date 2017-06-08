@@ -1037,17 +1037,31 @@
 }
 .c100.green .bar,
 .c100.green .fill {
-  border-color: #4db53c !important;
+  border-color: #9E9E9E !important;
 }
 .c100.green:hover > span {
-  color: #4db53c;
+  color: #9E9E9E;
 }
 .c100.green.dark .bar,
 .c100.green.dark .fill {
-  border-color: #5fd400 !important;
+  border-color: #616161 !important;
 }
 .c100.green.dark:hover > span {
-  color: #5fd400;
+  color: #616161;
+}
+.c100.grey .bar,
+.c100.grey .fill {
+  border-color: #9E9E9E !important;
+}
+.c100.grey:hover > span {
+  color: #9E9E9E;
+}
+.c100.grey.dark .bar,
+.c100.grey.dark .fill {
+  border-color: #616161 !important;
+}
+.c100.grey.dark:hover > span {
+  color: #616161;
 }
 .c100.orange .bar,
 .c100.orange .fill {

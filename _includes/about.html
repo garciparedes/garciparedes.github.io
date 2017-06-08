@@ -6,12 +6,12 @@
                     <h2>About</h2>
                     <hr class="star-light">
                 </div>
-                <div class="col-lg-8 col-lg-offset-2">
+                <div class="col-lg-10 col-lg-offset-1">
                     <p>{{ site.about.description }}</p>
                 </div>
 
                 {%  if site.about.work %}
-                <div class="col-lg-8 col-lg-offset-2">
+                <div class="col-lg-10 col-lg-offset-1">
                     <h3 class="text-center" >Work</h3>
                     {%  for work in site.about.work %}
                     <div class="row">
@@ -33,7 +33,7 @@
                 {%  endif %}
 
                 {%  if site.about.education %}
-                <div class="col-lg-8 col-lg-offset-2">
+                <div class="col-lg-10 col-lg-offset-1">
                     <h3 class="text-center" >Education</h3>
                     {%  for edu in site.about.education %}
                     <div class="row">
@@ -56,7 +56,7 @@
 
 
 
-                <div class="col-lg-8 col-lg-offset-2 text-center">
+                <div class="col-lg-10 col-lg-offset-1 text-center">
                     <a target="_blank" href="{{ site.cv-link }}" class="btn btn-lg btn-outline">
                         <i class="fa fa-download"></i> Download my CV
                     </a>
