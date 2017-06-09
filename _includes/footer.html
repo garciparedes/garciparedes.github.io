@@ -5,11 +5,9 @@
                 <div class="row">
                     <div class="footer-col col-sm-4">
                         <h3>{{ site.footer.location }}</h3>
-                        <p>
-                            {% for adress in site.address %}
-                                {{ adress.line }} <br>
-		                    {% endfor %}
-                        </p>
+                        <p><a  target="_blank" href="{{ site.address.url }}">
+                          {{ site.address.text }}
+                        </a></p>
                     </div>
                     <div class="footer-col col-sm-4">
                         <h3>{{ site.footer.social }}</h3>
