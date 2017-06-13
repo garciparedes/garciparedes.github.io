@@ -39,10 +39,10 @@ footer:
 cv-link: http://nbviewer.jupyter.org/github/garciparedes/cv/blob/master/garciparedes-cv.pdf
 
 about:
-    description: I'm a student of Computer Engineering with a great desire to learn. I especially like the Computing branch, ie, data structures, algorithms, and everything that has to do with scheduling things. Although I do not close the door to anything.
+    description: I'm a student of Computer Engineering with a great desire to learn. I especially like the Computing branch, i.e. data structures, algorithms, and everything related with encoding things.
     education:
         -   time: 2013 - present
-            degree: Bachelor's degree in Computer Science, Mention in Computation.
+            degree: Bachelor's degree in Computer Engineering, Mention in Computation.
             school: University of Valladolid, Spain.
     work:
         -   time: 2016 (3 months)
