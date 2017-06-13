@@ -39,7 +39,7 @@ footer:
 cv-link: http://nbviewer.jupyter.org/github/garciparedes/cv/blob/master/garciparedes-cv.pdf
 
 about:
-    description: I'm a student of Computer Engineering with a great desire to learn. I especially like the Computing branch, i.e. data structures, algorithms, and everything related with encoding things.
+    description: I'm a student of Computer Engineering with a great desire to learn. I especially like the Computing branch, i.e. data structures, algorithms, and everything related with encode things.
     education:
         -   time: 2013 - present
             degree: Bachelor's degree in Computer Engineering, Mention in Computation.
