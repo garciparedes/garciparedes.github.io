@@ -62,35 +62,6 @@ social:
   - title: facebook
     url: https://facebook.com/garciparedes
 
-
-programing-skills:
-    - name: Java
-      percent: 85
-    - name: Python
-      percent: 85
-    - name: TypeScript
-      percent: 70
-    - name: Latex
-      percent: 95
-    - name: Scala
-      percent: 50
-    - name: C
-      percent: 75
-
-interests:
-    - name: Cars
-      percent: 95
-    - name: Cycling
-      percent: 75
-    - name: Turntablism
-      percent: 85
-    - name: Rap
-      percent: 95
-    - name: Logic Problems
-      percent: 90
-    - name: Cooking
-      percent: 70
-
 # Postal address (add as many lines as necessary)
 address:
   text: Palencia, Spain
