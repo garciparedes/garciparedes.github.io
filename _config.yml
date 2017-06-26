@@ -53,14 +53,12 @@ about:
 social:
   - title: github
     url: https://github.com/garciparedes
+  - title: stack-overflow
+    url: https://stackoverflow.com/users/3921457
   - title: linkedin
     url: https://linkedin.com/in/garciparedes
   - title: send
     url: https://t.me/garciparedes
-  - title: twitter
-    url: https://twitter.com/garciparedes
-  - title: facebook
-    url: https://facebook.com/garciparedes
 
 # Postal address (add as many lines as necessary)
 address:
