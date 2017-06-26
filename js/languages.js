@@ -10,7 +10,7 @@ $(function() {
     dataType: 'jsonp',
     success: function(response) {
       normalizePercent(response.data.slice(0,list_size)).forEach(e => {
-        $("#languajest-list").append(languajeHtml(e.name, e.percent))
+        $("#languagest-list").append(languajeHtml(e.name, e.percent))
       })
     },
   });
