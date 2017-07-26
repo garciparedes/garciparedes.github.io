@@ -12,7 +12,7 @@
       {% for post in site.posts %}
       <div class="col-xs-6 col-sm-4 col-md-3 col-lg-2 portfolio-item">
         <a href="#portfolioModal-{{ post.modal-id }}" class="portfolio-link" data-toggle="modal">
-          <div class="square" style="background-image: url(img/portfolio/{{ post.img }});">
+          <div class="square" style="background-image: url('/img/portfolio/{{post.img}}');">
             <div class="caption">
               <div class="caption-content">
                 <i class="fa fa-search-plus fa-2x"></i>
