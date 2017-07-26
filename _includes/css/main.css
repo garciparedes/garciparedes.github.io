@@ -92,7 +92,7 @@ hr.star-primary {
 
 hr.star-primary:after {
     color: #{{ site.color.secondary }};
-    background-color: #fff;
+background-color: #fff;
 }
 
 .img-centered {
@@ -100,7 +100,7 @@ hr.star-primary:after {
 }
 
 .img-profile {
-  max-height: 40vh;
+    max-height: 40vh;
 }
 
 header {
