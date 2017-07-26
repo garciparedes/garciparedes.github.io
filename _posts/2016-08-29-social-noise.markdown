@@ -6,7 +6,7 @@ img: social-noise-contact.png
 alt: image-alt
 project-date: August 2016
 client: SocialNoise
-client-link: http://socialnoise.com
+client-link: https://socialnoise.com
 category: Web Development
 description:
 
