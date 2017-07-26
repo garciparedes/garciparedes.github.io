@@ -14,20 +14,22 @@
                 <div class="col-lg-10 col-lg-offset-1">
                     <h3 class="text-center" >Work</h3>
                     {%  for work in site.about.work %}
-                    <div class="row">
-                        <div class="col-md-3">
-                        <p>{{ work.time }}</p>
-                        </div>
-                        <div class="col-md-9">
-                            <p><strong>{{ work.title }}</strong></p>
-                        </div>
-                    </div>
+                        <div class="about-section">
+                            <div class="row">
+                                <div class="col-md-3">
+                                <p>{{ work.time }}</p>
+                                </div>
+                                <div class="col-md-9">
+                                    <p><strong>{{ work.title }}</strong></p>
+                                </div>
+                            </div>
 
-                    <div class="row">
-                        <div class="col-md-9 col-md-offset-3">
-                            <p>{{ work.company-name}}</p>
+                            <div class="row">
+                                <div class="col-md-9 col-md-offset-3">
+                                    <p>{{ work.company-name}}</p>
+                                </div>
+                            </div>
                         </div>
-                    </div>
                     {%  endfor %}
                 </div>
                 {%  endif %}
@@ -36,20 +38,22 @@
                 <div class="col-lg-10 col-lg-offset-1">
                     <h3 class="text-center" >Education</h3>
                     {%  for edu in site.about.education %}
-                    <div class="row">
-                        <div class="col-md-3">
-                        <p>{{ edu.time }}</p>
-                        </div>
-                        <div class="col-md-9">
-                            <p><strong>{{ edu.degree }}</strong></p>
-                        </div>
-                    </div>
+                        <div class="about-section">
+                            <div class="row">
+                                <div class="col-md-3">
+                                <p>{{ edu.time }}</p>
+                                </div>
+                                <div class="col-md-9">
+                                    <p><strong>{{ edu.degree }}</strong></p>
+                                </div>
+                            </div>
 
-                    <div class="row">
-                        <div class="col-md-9 col-md-offset-3">
-                            <p>{{ edu.school}}</p>
+                            <div class="row">
+                                <div class="col-md-9 col-md-offset-3">
+                                    <p>{{ edu.school}}</p>
+                                </div>
+                            </div>
                         </div>
-                    </div>
                     {%  endfor %}
                 </div>
                 {%  endif %}
