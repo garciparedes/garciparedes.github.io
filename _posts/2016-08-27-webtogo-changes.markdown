@@ -6,7 +6,7 @@ img: webtogo-changes.png
 alt: image-alt
 project-date: August 2016
 client: Webtogo
-client-link: webtogo.de
+client-link: https://webtogo.de/
 category: Web Development
 description:
 
