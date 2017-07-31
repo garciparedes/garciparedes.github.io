@@ -2,8 +2,8 @@
 title: Sergio García Prado
 email: sergio@garciparedes.me
 url: https://garciparedes.me
-description: "I'm student of Computer Engineering with a great desire to learn."
-skills: "Junior Computer Scientist"
+description: "I'm Junior Data Scientist with a great desire to learn."
+skills: "Junior Data Scientist"
 meta_author: García Prado Sergio
 
 # Google webmaster tools
@@ -33,7 +33,13 @@ footer:
 cv-link: https://nbviewer.jupyter.org/github/garciparedes/cv/blob/master/garciparedes-cv.pdf
 
 about:
-    description: I'm a student of Computer Engineering with a great desire to learn. I especially like the Computing branch, i.e. data structures, algorithms, and everything related with encode things.
+    description: "
+      <p>Currently, I'm starting a Bachelor's Degree of Statistics at the University of Valladolid. The reason is because of during my Bachelor's Degree of Computer Engineering the mathematical curiosity arose in me. So I think the combination of my previous engineer knowledge with my future scientific learning will be enriching to raise and solve complex problems.</p>
+
+      <p>During my first years of coding I've worked on different projects, related with Android development (like EvaluaMe), TypeScript version of Angular (like D'HondtAnalyzer) or the development of enterprise websites using WordPress (like during my internship at Brooktec). </p>
+
+      <p>But, in the last year I focus my work on numerical computation, statistical results, machine learning algorithms and graph problems. Mostly using Python and libraries like NumPy, Pandas or NetworkX. Also, during my final degree project of Computer Engineering I have used TensorFlow to start a Graph Library on top of it.</p>"
+
     education:
 
         -   time: 2017 - Present
