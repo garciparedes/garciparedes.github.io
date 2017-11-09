@@ -4,6 +4,10 @@
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
  */
 
+.container {
+  max-width: 940px;
+}
+
 .inner-content{
     margin: 0 0 30px 0;
 }
