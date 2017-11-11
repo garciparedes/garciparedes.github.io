@@ -1,0 +1,13 @@
+---
+layout: default
+modal-id: 18
+date: 2017-11-11
+img: ng-katex.png
+alt: image-alt
+project-date: August 2017
+client: ng-katex
+client-link: https://github.com/garciparedes/ng-katex
+category: Open Source Project
+description:
+
+---
