@@ -26,7 +26,6 @@ color:
 # Footer settings
 footer:
   copyright: Sergio García Prado
-  location: Location
   social: Around the Web
   credits: Credits
 
@@ -75,11 +74,6 @@ social:
     url: https://t.me/garciparedes
   - title: medium
     url: https://medium.com/@garciparedes
-
-# Postal address (add as many lines as necessary)
-address:
-  text: Palencia, Spain
-  url:  https://goo.gl/maps/icniv86V1GB2
 
 # Credits content
 credits: 'Freelancer is a free to use, open source Bootstrap theme created by <a href="http://startbootstrap.com">Start Bootstrap</a>. Improved and adapted by <a target="_blank" href="https://github.com/garciparedes/garciparedes.github.io/commits/master">@garciparedes</a>'

@@ -1,10 +1,10 @@
 <!-- About Section -->
-<section class="success" id="about">
+<section id="about">
   <div class="container">
     <div class="row">
       <div class="col-lg-12 text-center">
         <h2>About</h2>
-        <hr class="star-light">
+        <hr class="star-primary">
       </div>
       <div class="col-lg-12">
         <p>{{ site.about.description }}</p>
@@ -57,14 +57,11 @@
         {% endfor %}
       </div>
       {% endif %}
-
-
       <div class="col-lg-12 text-center">
-        <a target="_blank" href="{{ site.cv-link }}" class="btn btn-lg btn-outline">
+        <a target="_blank" href="{{ site.cv-link }}" class="btn btn-lg btn-outline-content">
           <i class="fa fa-download"></i> Download my CV
         </a>
       </div>
     </div>
-
   </div>
 </section>
