@@ -3,7 +3,7 @@ title: Sergio García Prado
 email: sergio@garciparedes.me
 url: https://garciparedes.me
 description: "I'm a Junior Data Scientist with great desire to learn."
-skills: "Junior Data Scientist"
+skills: "junior data { engineer, scientist }"
 meta_author: García Prado Sergio
 
 # Google webmaster tools
@@ -26,7 +26,7 @@ color:
 # Footer settings
 footer:
   copyright: Sergio García Prado
-  social: Around the Web
+  social: Social Links
   credits: Credits
 
 cv-link: https://nbviewer.jupyter.org/github/garciparedes/cv/blob/master/garciparedes-cv.pdf

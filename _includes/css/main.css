@@ -58,7 +58,7 @@ h3,
 h4,
 h5,
 h6 {
-    text-transform: uppercase;
+    text-transform: capitalize;
     font-weight: 700;
 }
 
@@ -128,7 +128,7 @@ header img {
 
 header .intro-text .name {
     display: block;
-    text-transform: uppercase;
+    text-transform: capitalize;
     font-size: 1.5em;
     font-weight: 700;
 }
@@ -179,7 +179,7 @@ header .intro-text .skills {
 }
 
 .navbar {
-    text-transform: uppercase;
+    text-transform: capitalize;
     font-weight: 700;
 }
 
