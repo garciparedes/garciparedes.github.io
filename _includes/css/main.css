@@ -173,6 +173,10 @@ header .intro-text .skills {
         padding: 0;
     }
 
+    .navbar-fixed-top .navbar-brand {
+        opacity: 0;
+    }
+
     .navbar-fixed-top.navbar-shrink .navbar-brand {
         opacity: 1;
     }
