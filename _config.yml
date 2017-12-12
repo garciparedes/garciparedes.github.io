@@ -70,10 +70,10 @@ social:
     url: https://stackoverflow.com/users/3921457
   - title: linkedin
     url: https://www.linkedin.com/in/garciparedes/
-  - title: send
-    url: https://t.me/garciparedes
   - title: medium
     url: https://medium.com/@garciparedes
+  - title: trophy
+    url: https://www.kaggle.com/garciparedes
 
 # Credits content
 credits: 'Freelancer is a free to use, open source Bootstrap theme created by <a href="http://startbootstrap.com">Start Bootstrap</a>. Improved and adapted by <a target="_blank" href="https://github.com/garciparedes/garciparedes.github.io/commits/master">@garciparedes</a>'
