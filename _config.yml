@@ -29,7 +29,8 @@ footer:
   social: Social Links
   credits: Credits
 
-cv-link: https://nbviewer.jupyter.org/github/garciparedes/curriculum-vitae/blob/master/garciparedes-cv.pdf
+curriculum-vitae-link: https://nbviewer.jupyter.org/github/garciparedes/curriculum-vitae/blob/master/garciparedes-cv.pdf
+cover-letter-link: https://nbviewer.jupyter.org/github/garciparedes/cover-letter/blob/master/garciparedes-cl.pdf
 
 about:
     description: "
