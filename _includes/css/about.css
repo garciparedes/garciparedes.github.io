@@ -1,3 +1,7 @@
 .about-section {
   padding-bottom: 5%;
 }
+
+.about-description {
+  text-align: justify;
+}
