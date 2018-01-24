@@ -153,62 +153,6 @@ header .intro-text .skills {
     }
 }
 
-@media(min-width:768px) {
-    .navbar-fixed-top {
-        -webkit-transition: padding .3s;
-        -moz-transition: padding .3s;
-        transition: padding .3s;
-    }
-
-    .navbar-fixed-top .navbar-brand {
-        font-size: 1.2em;
-
-        -webkit-transition: all .3s;
-        -moz-transition: all .3s;
-        transition: all .3s;
-    }
-
-    .navbar-fixed-top.navbar-shrink {
-        padding: 0;
-    }
-}
-
-.navbar-fixed-top .navbar-brand {
-  visibility: hidden;
-  opacity: 0;
-}
-
-.navbar-fixed-top.navbar-shrink .navbar-brand {
-    visibility: visible;
-    opacity: 1;
-}
-
-.navbar {
-    text-transform: capitalize;
-    font-weight: 700;
-}
-
-.navbar a:focus {
-    outline: 0;
-}
-
-.navbar .navbar-nav {
-    letter-spacing: 1px;
-}
-
-.navbar .navbar-nav li a:focus {
-    outline: 0;
-}
-
-.navbar-brand {
-    font-size: 16px;
-    transition: opacity 300ms;
-}
-
-.navbar-default,
-.navbar-inverse {
-    border: 0;
-}
 
 section {
     padding: 50px 0;
@@ -506,9 +450,6 @@ footer .footer-below {
     transform: rotate(90deg);
 }
 
-.navbar-nav>.active>a {
-    background-color: #{{ site.color.secondary-dark }} !important;
-}
 
 /* Fix modal mouse wheel issues */
 /* https://github.com/twbs/bootstrap/issues/16297 */
