@@ -44,7 +44,11 @@ about:
 
       <p>Due to my data passion I want to focus my future work on statistical computation, that is everything related with the research and implementation of new techniques of process, analyze and and predict it. For this reason I’ve learned R language and libraries like tidyverse, data.table, etc. Currently, I’m involved in learning amazing things related with probability theory, inference techniques, classification methods, multivariate analysis, etc.</p>
 
+<<<<<<< HEAD
       <p>As you’ve seen I want to work in positions related with Machine Learning, Big Data and Data Analysis. If you’re offering for a related job don’t hesitate to contact me.</p>
+=======
+      <p>As you’ve seen I want to work in posisitions related with Machine Learning, Big Data and Data Analysis. If you’re offering for a related job don’t hesitate to contact me.</p>
+>>>>>>> 54c45344368717f02249c8d76aebb3a154f7f9d8
       "
 
     education:
