@@ -34,17 +34,17 @@ cover-letter-link: https://nbviewer.jupyter.org/github/garciparedes/cover-letter
 
 about:
     description: "
-      <p>Hi! My name is Sergio and currently I’m enrolled in Bachelor’s Degree in Statistics at University of Valladolid, Spain. The reason is because during my Bachelor’s Degree in Computer Engineering the mathematical curiosity arose me. For this reason, I think the merge of my previous engineering knowledge combined with my future scientific learning will enrich me to raise and solve complex problems. In following paragraphs I will describe my professional profile.</p>
+      <p>Hi! My name is Sergio and now I’m enrolled in Bachelor’s Degree in Statistics at University of Valladolid, Spain. The reason is because during my Bachelor’s Degree in Computer Engineering the mathematical curiosity arose me. For this reason, I think the merge of my previous engineering knowledge combined with my future scientific learning will enrich me to raise and solve complex problems. In following paragraphs I will describe my professional profile.</p>
 
       <p>During my first years of coding I’ve learned Java at University, and Android at my home, then I developed EvaluaMeapp. After that, I started to be curious about web development (I really like TypeScript, especially when is boosted with Angular). Also, I’ve worked with PHP and WordPress in during my internship at Brooktec, but I prefer not to work with those technologies anymore.</p>
 
-      <p>In the writting area, I’ve started to use LaTeX as a way to submit class assigments in a cleaner way, but it has become in one of my passions. Another of my favorite ways to communicate things (especially when code is involved) is Jupyter Notebook.</p>
+      <p>In the writing area, I’ve started to use LaTeX as a clean way to submit class assignments in a cleaner way, but it has become in one of my passions. Another of my favourite ways to communicate things (especially when code is involved) is Jupyter Notebook.</p>
 
       <p>During my Computer’s Engineering Degree last year I focused my work on numerical computation, statistical methods, machine learning algorithms and graph problems. Mostly using Python and libraries like NumPy, Pandas, NetworkX, etc. Also, for my final degree project of Computer Engineering, I’ve started an open source project called TFGraph which consist of a graph library on top of TensorFlow. To learn more about packaging and library distribution I’ve developed ng-katex, an Angular module distributed over npm that allows you to visualize TeX math expressions on browsers boosted by KaTeX.</p>
 
-      <p>Due to my data passion I want to focus my future work on statistical computation, that is everything related with the research and implementation of new techniques of process, analize and and predict it. For this reason I’ve learned R language and libraries like tidyverse, data.table, etc. Currently, I’m involved in learning amazing things related with probability theory, inference techniques, classification methods, multivariate analysis, etc.</p>
+      <p>Due to my data passion I want to focus my future work on statistical computation, that is everything related with the research and implementation of new techniques of process, analyze and and predict it. For this reason I’ve learned R language and libraries like tidyverse, data.table, etc. Currently, I’m involved in learning amazing things related with probability theory, inference techniques, classification methods, multivariate analysis, etc.</p>
 
-      <p>As you’ve seen I want to work in posisitios related with Machine Learning, Big Data and Data Analysis. If you’re offering for a related job don’t hesitate to contact me.</p>
+      <p>As you’ve seen I want to work in positions related with Machine Learning, Big Data and Data Analysis. If you’re offering for a related job don’t hesitate to contact me.</p>
       "
 
     education:
