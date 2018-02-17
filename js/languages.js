@@ -2,7 +2,7 @@
 
 $(function() {
 
-  var list_size = 6
+  var list_size = 8
   var v
   $.ajax({
     type: 'GET',
@@ -26,7 +26,7 @@ $(function() {
 
   var languajeHtml = (name,percent) => {
     percent = Math.ceil(percent);
-    return `<div class="col-xs-6 col-sm-4 col-md-3 col-lg-2">
+    return `<div class="col-xs-6 col-sm-4 col-md-3">
       <div class="inner-content text-center">
         <div class="c100 p` + percent + ` grey center">
           <span>` +percent + `%</span>
