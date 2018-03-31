@@ -10,15 +10,15 @@ $(function() {
     dataType: 'jsonp',
     success: function(response) {
       normalizePercent(response.data.slice(0,list_size)).forEach(e => {
-        $("#languagest-list").append(languajeHtml(e.name, e.percent))
+        $("#languages-list").append(languajeHtml(e.name, e.percent))
       })
     },
   });
 
   var normalizePercent = list => {
-    var sum = list.map(e => e.percent).reduce((a,b)=>a+b);
+    var sum = list.map(e => e.percent).reduce((a, b) => a + b);
     list = list.map(function(e) {
-      e.percent = e.percent/sum*100;
+      e.percent = e.percent / sum * 100;
       return e;
     });
     return list;
@@ -29,7 +29,7 @@ $(function() {
     return `<div class="col-xs-6 col-sm-4 col-md-3">
       <div class="inner-content text-center">
         <div class="c100 p` + percent + ` grey center">
-          <span>` +percent + `%</span>
+          <span>` + percent + `%</span>
           <div class="slice">
               <div class="bar"></div>
               <div class="fill"></div>
