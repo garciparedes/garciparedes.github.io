@@ -4,7 +4,7 @@ email: sergio@garciparedes.me
 url: https://garciparedes.me
 description: "I'm a junior data { engineer, scientist } with great desire to learn."
 skills: "junior data { engineer, scientist }"
-meta_author: García Prado Sergio
+meta_author: Sergio García Prado
 
 # Google webmaster tools
 google_verify: 'H46a1v6GpJ-90m1n4nAS4yQ5ADvlcz5YTfX5nl1gltk'
@@ -75,12 +75,12 @@ about:
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
+  - title: linkedin
+    url: https://www.linkedin.com/in/garciparedes/
   - title: github
     url: https://github.com/garciparedes
   - title: stack-overflow
     url: https://stackoverflow.com/users/3921457
-  - title: linkedin
-    url: https://www.linkedin.com/in/garciparedes/
   - title: medium
     url: https://medium.com/@garciparedes
   - title: trophy
