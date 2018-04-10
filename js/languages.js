@@ -1,30 +1,13 @@
 
 
 $(function() {
-
-  var list_size = 8
-  var v
-  $.ajax({
-    type: 'GET',
-    url: 'https://wakatime.com/share/@garciparedes/77e78cc0-f16a-46a3-9530-8caf442652d3.json',
-    dataType: 'jsonp',
-    success: function(response) {
-      normalizePercent(response.data.slice(0,list_size)).forEach(e => {
-        $("#languages-list").append(languajeHtml(e.name, e.percent))
-      })
-    },
-  });
-
-  var normalizePercent = list => {
-    var sum = list.map(e => e.percent).reduce((a, b) => a + b);
-    list = list.map(function(e) {
-      e.percent = e.percent / sum * 100;
-      return e;
-    });
-    return list;
+  let list_size = 8;
+  let normalizePercent = list => {
+    let sum = list.map(e => e.percent).reduce((a, b) => a + b);
+    return list.map(e => e.percent / sum * 100);
   };
 
-  var languajeHtml = (name,percent) => {
+  let languajeHtml = (name, percent) => {
     percent = Math.ceil(percent);
     return `<div class="col-xs-6 col-sm-4 col-md-3">
       <div class="inner-content text-center">
@@ -39,4 +22,19 @@ $(function() {
       </div>
       </div>`;
   };
+
+  $.ajax({
+    type: 'GET',
+    url: 'https://wakatime.com/share/@garciparedes/77e78cc0-f16a-46a3-9530-8caf442652d3.json',
+    dataType: 'jsonp',
+    success: function(response) {
+      if (response.data.constructor === Array) {
+        normalizePercent(response.data.slice(0, list_size)).forEach(e => {
+          $("#languages-list").append(languajeHtml(e.name, e.percent));
+        });
+      } else {
+        $.ajax(this);
+      }
+    },
+  });
 });
