@@ -4,7 +4,10 @@ $(function() {
   let list_size = 8;
   let normalizePercent = list => {
     let sum = list.map(e => e.percent).reduce((a, b) => a + b);
-    return list.map(e => e.percent / sum * 100);
+    return list.map(e => {
+      e.percent / sum * 100;
+      return e;
+    });
   };
 
   let languajeHtml = (name, percent) => {
