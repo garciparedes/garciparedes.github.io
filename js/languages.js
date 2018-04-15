@@ -31,7 +31,7 @@ $(function() {
     url: 'https://wakatime.com/share/@garciparedes/77e78cc0-f16a-46a3-9530-8caf442652d3.json',
     dataType: 'jsonp',
     success: function(response) {
-      if (response.data.constructor === Array) {
+      if (response.data !== undefined && response.data.constructor === Array) {
         normalizePercent(response.data.slice(0, list_size)).forEach(e => {
           $("#languages-list").append(languajeHtml(e.name, e.percent));
         });
