@@ -6,7 +6,7 @@ img: ceda-el-vaso.png
 alt: image-alt
 project-date: August 2017
 client: Ceda el Vaso
-client-link: https://cedaelvaso.github.io/
+client-link: https://cedaelvaso.es/
 category: Web
 description:
 
