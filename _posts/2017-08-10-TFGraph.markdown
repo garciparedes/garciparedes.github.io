@@ -1,13 +1,7 @@
 ---
 layout: default
-modal-id: 17
 date: 2017-08-10
 img: tfgraph.png
-alt: image-alt
-project-date: August 2017
 client: TFGraph
 client-link: https://github.com/TFGraph
-category: Open Source Project
-description:
-
 ---

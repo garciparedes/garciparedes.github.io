@@ -1,13 +1,7 @@
 ---
 layout: default
-modal-id: 2
 date: 2015-02-01
 img: evaluame.png
-alt: image-alt
-project-date: February 2015
 client: EvaluaMe
 client-link: https://play.google.com/store/apps/details?id=com.garciparedes.evaluame
-category: Android Development
-description:
-
 ---
