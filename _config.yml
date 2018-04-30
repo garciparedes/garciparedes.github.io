@@ -61,17 +61,9 @@ about:
             title: Research Assistant (Internship)
             company-name: University of Valladolid, Spain.
 
-        -   time: 2017
-            title: Open Source Developer (Final Degree Project)
-            company-name: TFGraph
-
         -   time: 2016
             title: Software Developer (Internship)
             company-name: Brooktec
-
-        -   time: 2015 - 2016
-            title: Android Developer (Pet Project)
-            company-name: EvaluaMe
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
