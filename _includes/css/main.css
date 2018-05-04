@@ -86,6 +86,12 @@ hr.star-primary {
 
 .img-profile {
     max-height: 30vh;
+    background: url(/assets/img/profile.jpeg) no-repeat;
+    background-position: center center;
+    background-size: cover;
+    max-width: 30vh;
+    width: 100vh;
+    height: 100vh;
 }
 
 .btn-social {
