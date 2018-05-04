@@ -5,13 +5,13 @@ $(function() {
   let normalizePercent = list => {
     let sum = list.map(e => e.percent).reduce((a, b) => a + b);
     return list.map(e => {
-      e.percent / sum * 100;
+      e.percent = e.percent / sum * 100;
       return e;
     });
   };
 
   let languajeHtml = (name, percent) => {
-    percent = Math.ceil(percent);
+    percent = Math.round(percent);
     return `<div class="col-xs-6 col-sm-4 col-md-3">
       <div class="inner-content text-center">
         <div class="c100 p` + percent + ` grey center">
