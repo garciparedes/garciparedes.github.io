@@ -1,7 +1,7 @@
 ---
 layout: default
 date: 2014-06-01
-img: draughts.png
+img: draughts.jpg
 client: Classwork for University of Valladolid
 client-link: https://github.com/AdriSergio/DamasPyhonGtk3
 ---

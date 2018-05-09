@@ -1,7 +1,7 @@
 ---
 layout: default
 date: 2015-02-01
-img: evaluame.png
+img: evaluame.jpg
 client: EvaluaMe
 client-link: https://play.google.com/store/apps/details?id=com.garciparedes.evaluame
 ---

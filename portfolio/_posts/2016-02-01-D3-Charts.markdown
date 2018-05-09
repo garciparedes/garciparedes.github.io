@@ -1,7 +1,7 @@
 ---
 layout: default
 date: 2016-02-01
-img: charts.png
+img: charts.jpg
 client: Classwork for University of Valladolid
 client-link: https://github.com/garciparedes/DatosMedioambientalesCYL
 ---

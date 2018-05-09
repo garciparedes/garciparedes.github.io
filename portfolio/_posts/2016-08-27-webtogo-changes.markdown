@@ -1,7 +1,7 @@
 ---
 layout: default
 date: 2016-08-25
-img: webtogo-changes.png
+img: webtogo-changes.jpg
 alt: image-alt
 client: Webtogo
 client-link: https://webtogo.de/
