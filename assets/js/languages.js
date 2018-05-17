@@ -1,7 +1,7 @@
 
 
 $(function() {
-  let list_size = 8;
+  let listSize = 8;
   let normalizePercent = list => {
     let sum = list.map(e => e.percent).reduce((a, b) => a + b);
     return list.map(e => {
@@ -32,7 +32,7 @@ $(function() {
     dataType: 'jsonp',
     success: function(response) {
       if (response.data !== undefined && response.data.constructor === Array) {
-        normalizePercent(response.data.slice(0, list_size)).forEach(e => {
+        normalizePercent(response.data.slice(0, listSize)).forEach(e => {
           $("#languages-list").append(languajeHtml(e.name, e.percent));
         });
       } else {
