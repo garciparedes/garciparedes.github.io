@@ -64,6 +64,17 @@ about:
         -   time: 2016
             title: Software Developer (Internship)
             company-name: Brooktec
+nav-links:
+  - path: "#about"
+    title: "About"
+  - path: "#work"
+    title: "Work"
+  - path: "#education"
+    title: "Education"
+  - path: "#portfolio"
+    title: "Portfolio"
+  - path: "#languages"
+    title: "Languages"
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
