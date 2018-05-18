@@ -16,10 +16,6 @@
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav navbar-right">
 
-        <li class="hidden">
-          <a href="{{site.url}}#headers"></a>
-        </li>
-
         {% for link in site.nav-links %}
         <li class="page-scroll">
           <a href="{{site.url}}{{link.path}}">{{link.title}}</a>
