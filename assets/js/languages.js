@@ -28,11 +28,11 @@ $(function() {
 
   $.ajax({
     type: 'GET',
-    url: 'https://wakatime.com/share/@garciparedes/77e78cc0-f16a-46a3-9530-8caf442652d3.json',
+    url: 'https://wakatime.com/share/@garciparedes/4aaec0cf-81eb-4902-9b7a-ef9ca3c520d4.json',
     dataType: 'jsonp',
     success: function(response) {
       if (response.data !== undefined && response.data.constructor === Array) {
-        normalizePercent(response.data.slice(0, listSize)).forEach(e => {
+        normalizePercent(response.data.filter(a => a.name != "Other").slice(0, listSize)).forEach(e => {
           $("#languages-list").append(languajeHtml(e.name, e.percent));
         });
       } else {
