@@ -30,14 +30,34 @@ $(function() {
     type: 'GET',
     url: 'https://wakatime.com/share/@garciparedes/640d0e3d-94f8-4f2d-a710-aa82ce9f9e4d.json',
     dataType: 'jsonp',
+    tryCount : 0,
+    retryLimit : 3,
     success: function(response) {
       if (response.data !== undefined && response.data.constructor === Array) {
-        normalizePercent(response.data.filter(a => a.name != "Other").slice(0, listSize)).forEach(e => {
-          $("#languages-list").append(languajeHtml(e.name, e.percent));
+        normalizePercent(response.data
+          .filter(a => a.name != "Other")
+          .slice(0, listSize)
+        ).forEach(e => {
+            $("#languages-list")
+              .append(languajeHtml(e.name, e.percent));
         });
+        return
       } else {
-        $.ajax(this);
+        this.tryCount++;
+        if (this.tryCount <= this.retryLimit) {
+          $.ajax(this);
+          return;
+        }
       }
+      return
     },
+    error : function(xhr, textStatus, errorThrown ) {
+      this.tryCount++;
+      if (this.tryCount <= this.retryLimit) {
+        $.ajax(this);
+        return;
+      }
+      return;
+    }
   });
 });
