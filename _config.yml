@@ -48,7 +48,7 @@ description: "
 
 education:
 
-    -   time: 2017 - Present
+    -   time: 2017 - 2019
         degree: Bachelor's degree in Statistics.
         school: <a href="http://uva.es" target="_blank">University of Valladolid</a>
 
@@ -58,16 +58,20 @@ education:
 
 work:
 
-    -   time: 2018 - Present
-        title: Software Engineer (Internship)
+    -   time: 2018/09 - Present
+        title: Software Engineer
         company-name: <a href="https://unlimiteck.com/" target="_blank">Unlimiteck Company Builder</a>
 
-    -   time: 2018 - Present
-        title: Research Assistant (Internship)
+    -   time: 2018/06 - 2018/08
+        title: Software Engineer Intern
+        company-name: <a href="https://unlimiteck.com/" target="_blank">Unlimiteck Company Builder</a>
+
+    -   time: 2018/03 - 2018/08
+        title: Research Assistant Intern
         company-name: <a href="http://uva.es" target="_blank">University of Valladolid</a>
 
-    -   time: 2016
-        title: Software Engineer (Internship)
+    -   time: 2016/06 - 2016/08
+        title: Software Engineer Intern
         company-name: <a href="https://brooktec.com/" target="_blank">Brooktec</a>
 
 
