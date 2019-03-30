@@ -9,14 +9,17 @@
       <div class="col-lg-12 about-description">
         {{ site.description }}
       </div>
-      
       <div class="col-lg-12 text-center" >
+        {% if site.curriculum-vitae-link %}
         <a target="_blank" href="{{ site.curriculum-vitae-link }}" class="btn btn-lg btn-outline-content" style="width: 250px;">
           <i class="fa fa-graduation-cap"></i> Curriculum Vitae
         </a>
+        {% endif %}
+        {% if site.cover-letter-link %}
         <a target="_blank" href="{{ site.cover-letter-link }}" class="btn btn-lg btn-outline-content" style="width: 250px;">
           <i class="fa fa-envelope-open"></i> Cover Letter
         </a>
+        {% endif %}
       </div>
     </div>
   </div>
