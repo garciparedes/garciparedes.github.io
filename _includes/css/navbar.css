@@ -35,7 +35,7 @@
     border: 0;
 }
 .navbar-nav>.active> a {
-    background-color: #{{ site.color.secondary-dark }} !important;
+    background-color: #{{ site.color.secondary_dark }} !important;
 }
 
 @media(min-width:768px) {

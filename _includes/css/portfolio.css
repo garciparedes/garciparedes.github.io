@@ -15,7 +15,7 @@
     height: 100%;
     padding-bottom: 75%;
     opacity: 0;
-    background: rgba({{ site.color.primary-rgb }},.9);
+    background: rgba({{ site.color.primary_rgb }},.9);
     -webkit-transition: all ease .5s;
     -moz-transition: all ease .5s;
     transition: all ease .5s;

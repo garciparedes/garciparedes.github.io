@@ -19,9 +19,9 @@ disqus_shortname: garciparedes
 # Color settings (hex-codes without the leading hash-tag)
 color:
   primary: '9E9E9E'
-  primary-rgb: '158,158,158'
+  primary_rgb: '158,158,158'
   secondary: '616161'
-  secondary-dark: '9E9E9E'
+  secondary_dark: '9E9E9E'
 
 # Footer settings
 footer:
@@ -29,8 +29,8 @@ footer:
   social: Social Links
   credits: Credits
 
-curriculum-vitae-link: https://garciparedes.me/curriculum-vitae
-# cover-letter-link: https://garciparedes.me/cover-letter
+curriculum_vitae_link: https://garciparedes.me/curriculum-vitae
+# cover_letter_link: https://garciparedes.me/cover-letter
 
 description: "
   <p>Hi! My name is Sergio and now I’m enrolled in Bachelor’s Degree in Statistics at University of Valladolid, Spain. The reason is because during my Bachelor’s Degree in Computer Engineering the mathematical curiosity arose me. For this reason, I think the merge of my previous engineering knowledge combined with my future scientific learning will enrich me to raise and solve complex problems. In following paragraphs I will describe my professional profile.</p>
@@ -63,19 +63,19 @@ work:
 
     -   time: 2018/09 - Present
         title: Software Engineer
-        company-name: <a href="https://unlimiteck.com/" target="_blank">Unlimiteck Company Builder</a>
+        company_name: <a href="https://unlimiteck.com/" target="_blank">Unlimiteck Company Builder</a>
 
     -   time: 2018/06 - 2018/08
         title: Software Engineer Intern
-        company-name: <a href="https://unlimiteck.com/" target="_blank">Unlimiteck Company Builder</a>
+        company_name: <a href="https://unlimiteck.com/" target="_blank">Unlimiteck Company Builder</a>
 
     -   time: 2018/03 - 2018/08
         title: Research Assistant Intern
-        company-name: <a href="http://uva.es" target="_blank">University of Valladolid</a>
+        company_name: <a href="http://uva.es" target="_blank">University of Valladolid</a>
 
     -   time: 2016/06 - 2016/08
         title: Software Engineer Intern
-        company-name: <a href="https://brooktec.com/" target="_blank">Brooktec</a>
+        company_name: <a href="https://brooktec.com/" target="_blank">Brooktec</a>
 
 
 nav-links:

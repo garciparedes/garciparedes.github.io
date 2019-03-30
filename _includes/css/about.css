@@ -39,6 +39,6 @@
 .btn-outline-content:active,
 .btn-outline-content.active {
     color: #fff;
-    border: solid 2px #{{ site.color.secondary-dark }};
-    background-color: #{{ site.color.secondary-dark }};
+    border: solid 2px #{{ site.color.secondary_dark }};
+    background-color: #{{ site.color.secondary_dark }};
 }
