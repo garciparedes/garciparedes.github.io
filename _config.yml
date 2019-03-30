@@ -47,13 +47,16 @@ description: "
   "
 
 education:
+    -   time: 2019 - 2019
+        degree: Erasmus+, Statistics.
+        school: <a href="https://www.unibo.it/en" target="_blank">University of Bologna</a>
 
     -   time: 2017 - 2019
-        degree: Bachelor's degree in Statistics.
+        degree: Bachelor's degree, Statistics.
         school: <a href="http://uva.es" target="_blank">University of Valladolid</a>
 
     -   time: 2013 - 2017
-        degree: Bachelor's degree in Computer Engineering, Mention in Computation.
+        degree: Bachelor's degree, Computer Engineering, Computation.
         school: <a href="http://uva.es" target="_blank">University of Valladolid</a>
 
 work:
