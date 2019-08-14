@@ -78,18 +78,18 @@ nav-links:
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
-  - title: linkedin
-    url: https://www.linkedin.com/in/garciparedes/
   - title: github
     url: https://github.com/garciparedes
   - title: stack-overflow
     url: https://stackoverflow.com/users/3921457
   - title: medium
     url: https://medium.com/@garciparedes
-  - title: trophy
-    url: https://www.kaggle.com/garciparedes
   - title: graduation-cap
     url: https://scholar.google.com/citations?user=X3Mb7BAAAAAJ
+  - title: linkedin
+    url: https://www.linkedin.com/in/garciparedes/
+  - title: patreon
+    url: https://www.patreon.com/garciparedes
 
 # Credits content
 credits: 'Freelancer is a free to use, open source Bootstrap theme created by <a href="https://startbootstrap.com/">Start Bootstrap</a>. Improved and adapted by <a target="_blank" href="https://github.com/garciparedes/garciparedes.github.io/commits/master">@garciparedes</a>'
