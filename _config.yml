@@ -84,7 +84,7 @@ social:
   - icon: fab fa-stack-overflow
     title: Stack Overflow
     url: https://stackoverflow.com/users/3921457
-  - icon: fab fa-Medium
+  - icon: fab fa-medium
     title: Medium
     url: https://medium.com/@garciparedes
   - icon: ai ai-google-scholar
