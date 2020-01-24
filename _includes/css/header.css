@@ -3,12 +3,12 @@ header {
     text-align: center;
     color: #fff;
     min-height: 100vh;
+    padding-bottom: 5vh;
     background: #{{ site.color.primary }};
 }
 
 header .container {
-    padding-top: 100px;
-    padding-bottom: 50px;
+  padding-top: 80px;
 }
 
 header img {
@@ -29,16 +29,11 @@ header .intro-text .skills {
 }
 
 @media(min-width:768px) {
-    header .container {
-        padding-top: 100px;
-        padding-bottom: 100px;
-    }
-
     header .intro-text .name {
         font-size: 3em;
     }
 
     header .intro-text .skills {
-        font-size: 1.75em;
+        font-size: 1.5em;
     }
 }

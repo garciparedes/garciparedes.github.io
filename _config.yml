@@ -67,6 +67,8 @@ work:
 
 
 nav-links:
+  - path: "#headers"
+    title: "Home"
   - path: "#about"
     title: "About"
   - path: "#work"
