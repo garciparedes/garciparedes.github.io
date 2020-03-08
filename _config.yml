@@ -2,8 +2,8 @@
 title: Sergio García Prado
 email: sergio@garciparedes.me
 url: https://garciparedes.me
-description: "Software Engineering | Data Science | Research | Scientific Computation"
-skills: "Software Engineering | Data Science <br/> Research | Scientific Computation"
+description: "Software Engineering | Statistics | RPA | Combinatorial Optimization"
+skills: "Software Engineering | Statistics <br/> RPA | Combinatorial Optimization"
 meta_author: Sergio García Prado
 
 # Google webmaster tools
@@ -49,8 +49,12 @@ education:
 
 work:
 
-    -   time: 2018/09 - Present
+    -   time: 2019/09 - Present
         title: Software Engineer
+        company_name: <a href="https://unlimiteck.com/" target="_blank">Unlimiteck Company Builder</a>
+
+    -   time: 2018/09 - 2019/09
+        title: Remote Software Engineer
         company_name: <a href="https://unlimiteck.com/" target="_blank">Unlimiteck Company Builder</a>
 
     -   time: 2018/06 - 2018/08
