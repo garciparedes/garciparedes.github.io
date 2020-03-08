@@ -136,3 +136,14 @@ hr.star-primary {
 .credits p {
   font-size: 16px
 }
+
+
+.outer-center-container {
+  display: table;
+  width: 100%;
+}
+
+.inner-center-container {
+  display: table-cell;
+  vertical-align: middle;
+}
