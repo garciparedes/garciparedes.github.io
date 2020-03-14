@@ -2,7 +2,7 @@
 title: Sergio García Prado
 email: sergio@garciparedes.me
 url: https://garciparedes.me
-description: "Software Engineering | Statistics | RPA | Combinatorial Optimization"
+summary: "Software Engineering | Statistics | RPA | Combinatorial Optimization"
 skills: "Software Engineering | Statistics <br/> RPA | Combinatorial Optimization"
 meta_author: Sergio García Prado
 
@@ -27,7 +27,7 @@ color:
 footer:
   copyright: Sergio García Prado
   social: Social Links
-  credits: Credits
+  credits: Skills
 
 curriculum_vitae_link: https://garciparedes.me/curriculum-vitae
 # cover_letter_link: https://garciparedes.me/cover-letter
@@ -99,9 +99,6 @@ social:
   - icon: fab fa-patreon
     title: Patreon
     url: https://www.patreon.com/garciparedes
-
-# Credits content
-credits: 'Freelancer is a free to use, open source Bootstrap theme created by <a href="https://startbootstrap.com/">Start Bootstrap</a>. Improved and adapted by <a target="_blank" href="https://github.com/garciparedes/garciparedes.github.io/commits/master">@garciparedes</a>'
 
 # Build settings
 markdown: kramdown
