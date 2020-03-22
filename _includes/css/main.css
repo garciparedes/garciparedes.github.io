@@ -16,6 +16,7 @@ body {
 }
 
 .project-item .square {
+    border: 1px solid;
     float:left;
     position: relative;
     width: 100%;
