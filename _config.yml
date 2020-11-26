@@ -32,11 +32,11 @@ footer:
 curriculum_vitae_link: https://garciparedes.me/curriculum-vitae
 # cover_letter_link: https://garciparedes.me/cover-letter
 
-description: "Hi everyone! I’m a double Bachelor’s degree graduate in <strong>Computer Engineering</strong> and (future graduate) in <strong>Statistics</strong> from the University of Valladolid, in Spain. I love to solve complex algorithmic problems, especially those based on <strong>Combinatorial Optimization</strong> via tricky techniques. Also, I enjoy applying Mathematical and Statistical approaches to develop amazing solutions. Lately, I’m curious about Sequential Models, Architectural Patterns and the Rust Programming Language. Currently, I’m happily working at <strong>Unlimiteck Company Builder</strong> developing tools to solve complex combinatorial problems."
+description: " Hi everyone! I'm a double Bachelor's degree graduate in <strong>Computer Engineering</strong> and in <strong>Statistics</strong> from the University of Valladolid, in Spain. I love to solve complex algorithmic problems, especially those based on <strong>Combinatorial Optimization</strong> via tricky techniques. Also, I enjoy applying Mathematical and Statistical approaches to develop amazing solutions. Lately, I'm specially curious about <strong>Sequential Models}</strong>, <strong>Architectural Patterns</strong> and the <strong>Rust Programming Language</strong>. One of my biggest hobbies is <strong>Competitive Programming</strong>, which I try to practice as much as possible."
 
 education:
 
-    -   time: 2017 - present
+    -   time: 2017 - 2020
         degree: Statistics
         level: Bachelor's degree
         school_name: <a href="http://uva.es" target="_blank">University of Valladolid</a>
@@ -105,9 +105,9 @@ social:
   - icon: fab fa-linkedin-in
     title: LinkedIn
     url: https://www.linkedin.com/in/garciparedes/
-  - icon: fab fa-patreon
+  - icon: fab fa-trophy
     title: Patreon
-    url: https://www.patreon.com/garciparedes
+    url: https://www.leetcode.com/garciparedes
 
 # Build settings
 markdown: kramdown
