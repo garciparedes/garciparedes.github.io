@@ -105,8 +105,8 @@ social:
   - icon: fab fa-linkedin-in
     title: LinkedIn
     url: https://www.linkedin.com/in/garciparedes/
-  - icon: fab fa-trophy
-    title: Patreon
+  - icon: fas fa-trophy
+    title: LeetCode 
     url: https://www.leetcode.com/garciparedes
 
 # Build settings
