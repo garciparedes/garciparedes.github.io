@@ -1,7 +1,0 @@
----
-layout: default
-date: 2017-11-11
-img: ng-katex.jpg
-client: ng-katex
-client-link: https://github.com/garciparedes/ng-katex
----

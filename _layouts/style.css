@@ -1,9 +1,182 @@
-{% include css/bootstrap.min.css %}
-{% include css/main.css %}
-{% include css/about.css %}
-{% include css/footer.css %}
-{% include css/header.css %}
-{% include css/navbar.css %}
-{% include css/projects.css %}
-{% include css/section.css %}
-{% include css/circle.css %}
+/*!
+ * Start Bootstrap - Freelancer Bootstrap Theme (http://startbootstrap.com)
+ * Code licensed under the Apache License v2.0.
+ * For details, see http://www.apache.org/licenses/LICENSE-2.0.
+ */
+body {
+  font-family: 'Roboto';
+}
+
+.container {
+  max-width: 860px;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+p {
+    font-size: 12pt;
+}
+
+p.small {
+    font-size: 10pt;
+}
+
+a,
+a:hover,
+a:focus,
+a:active,
+a.active {
+    outline: 0;
+    color: #{{ site.color.primary }};
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    text-transform: capitalize;
+    font-weight: 700;
+}
+
+hr.star-light,
+hr.star-primary {
+    margin: 10px auto 20px;
+    padding: 0;
+    max-width: 275px;
+    border: 0;
+    border-top: solid 3px;
+    text-align: center;
+}
+
+hr.star-light {
+    border-color: white;
+}
+
+hr.star-primary {
+    border-color: #{{ site.color.secondary }};
+}
+
+.img-centered {
+    margin: 0 auto;
+}
+
+
+.img-profile {
+    background: url(/assets/img/profile.jpg) no-repeat;
+    background-position: center center;
+    background-size: cover;
+    height: 35vh;
+    width: 35vh;
+}
+
+
+.btn-social {
+    display: inline-block;
+    width: 36px;
+    height: 36px;
+    border: 2px solid #fff;
+    border-radius: 100%;
+    text-align: center;
+    font-size: 18px;
+    line-height: 32px;
+}
+
+.btn:focus,
+.btn:active,
+.btn.active {
+    outline: 0;
+}
+
+.credits p {
+  font-size: 16px
+}
+
+
+.outer-center-container {
+  display: table;
+  width: 100%;
+}
+
+.inner-center-container {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+header {
+    text-align: center;
+    color: #fff;
+    min-height: 100vh;
+    padding-bottom: 5vh;
+    background: #{{ site.color.secondary }};
+}
+
+header .container {
+  padding-top: 80px;
+}
+
+header img {
+    display: block;
+    margin: 0 auto 20px;
+}
+
+header .intro-text .name {
+    display: block;
+    text-transform: capitalize;
+    font-size: 1.5em;
+    font-weight: 700;
+}
+
+header .intro-text .skills {
+    font-size: 1.2em;
+    font-weight: 300;
+}
+
+@media(min-width:768px) {
+    header .intro-text .name {
+        font-size: 3em;
+    }
+
+    header .intro-text .skills {
+        font-size: 1.5em;
+    }
+}
+
+.btn-outline {
+    margin-top: 15px;
+    border: solid 2px #fff;
+    font-size: 20px;
+    color: #fff;
+    background: 0 0;
+    transition: all .3s ease-in-out;
+}
+
+.btn-outline:hover,
+.btn-outline:focus,
+.btn-outline:active,
+.btn-outline.active {
+    border: solid 2px #fff;
+    color: #{{ site.color.primary }};
+    background-color: #ffffff;
+}
+
+.btn-outline-content {
+    margin-top: 15px;
+    font-size: 20px;
+    background: 0 0;
+    transition: all .3s ease-in-out;
+    border: solid 2px #{{ site.color.secondary }};
+    color: #{{ site.color.secondary }};
+}
+
+.btn-outline-content:hover,
+.btn-outline-content:focus,
+.btn-outline-content:active,
+.btn-outline-content.active {
+    color: #fff;
+    border: solid 2px #{{ site.color.secondary_dark }};
+    background-color: #{{ site.color.secondary_dark }};
+

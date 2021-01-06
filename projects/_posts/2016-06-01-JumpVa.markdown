@@ -1,7 +1,0 @@
----
-layout: default
-date: 2016-06-01
-img: jumpva.jpg
-client: Classwork for University of Valladolid
-client-link: https://github.com/MangostasUVaTeam/JumpVa
----

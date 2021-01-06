@@ -1,6 +1,0 @@
----
-layout: default
-date: 2020-01-01
-img: jinete.png
-client-link: https://garciparedes.me/jinete
----

@@ -9,9 +9,6 @@ meta_author: Sergio García Prado
 # Google webmaster tools
 google_verify: 'H46a1v6GpJ-90m1n4nAS4yQ5ADvlcz5YTfX5nl1gltk'
 
-# https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
-bing_verify:
-
 # If you use disqus you need disqus shortname
 # https://help.disqus.com/customer/portal/articles/466208
 disqus_shortname: garciparedes
@@ -23,73 +20,10 @@ color:
   secondary: '616161'
   secondary_dark: '9E9E9E'
 
-# Footer settings
-footer:
-  copyright: Sergio García Prado
-  social: Social Links
-  credits: Skills
-
 curriculum_vitae_link: https://garciparedes.me/curriculum-vitae
 # cover_letter_link: https://garciparedes.me/cover-letter
 
 description: "Hi everyone! I'm a double Bachelor's degree graduate in <strong>Computer Engineering</strong> and in <strong>Statistics</strong> from the University of Valladolid, in Spain. I love to solve complex algorithmic problems, especially those related with <strong>Combinatorial Optimization</strong>. Also, I enjoy applying Mathematical and Statistical approaches to develop amazing solutions. Lately, I'm specially curious about <strong>Sequential Models</strong>, <strong>Architectural Patterns</strong> and the <strong>Rust Programming Language</strong>. One of my biggest hobbies is <strong>Competitive Programming</strong>, which I try to practice as much as possible."
-
-education:
-
-    -   time: 2017 - 2020
-        degree: Statistics
-        level: Bachelor's degree
-        school_name: <a href="http://uva.es" target="_blank">University of Valladolid</a>
-
-    -   time: 2019
-        degree: Statistics
-        level: Erasmus+
-        school_name: <a href="https://www.unibo.it/en" target="_blank">University of Bologna</a>
-
-    -   time: 2013 - 2017
-        level: Bachelor's degree
-        degree: Computer Engineering, Computation.
-        school_name: <a href="http://uva.es" target="_blank">University of Valladolid</a>
-
-work:
-
-    -   time: 2018/06 - present
-        title: Software Engineer
-        duration: current
-        company_name: <a href="https://unlimiteck.com/" target="_blank">Unlimiteck Company Builder</a>
-
-    -   time:
-        title: Remote Software Engineer
-        duration: 1 year
-        company_name:
-
-    -   time:
-        duration: 3 months
-        title: Software Engineer Intern
-        company_name:
-
-    -   time: 2018/03 - 2018/08
-        duration: 6 months
-        title: Research Assistant Intern
-        company_name: <a href="http://uva.es" target="_blank">University of Valladolid</a>
-
-    -   time: 2016/06 - 2016/08
-        duration: 3 months
-        title: Software Engineer Intern
-        company_name: <a href="https://brooktec.com/" target="_blank">Brooktec</a>
-
-
-nav-links:
-  - path: "#headers"
-    title: "Home"
-  - path: "#about"
-    title: "About"
-  - path: "#work"
-    title: "Work"
-  - path: "#education"
-    title: "Education"
-  - path: "#projects"
-    title: "Projects"
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
@@ -113,13 +47,3 @@ social:
 markdown: kramdown
 permalink: /:title.html
 
-plugins:
-  - jekyll-sitemap
-
-
-defaults:
-  -
-    scope:
-      path:            "project"
-    values:
-      sitemap:         false

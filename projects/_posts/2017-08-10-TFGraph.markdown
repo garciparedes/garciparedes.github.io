@@ -1,7 +1,0 @@
----
-layout: default
-date: 2017-08-10
-img: tfgraph.jpg
-client: TFGraph
-client-link: https://github.com/TFGraph
----
