@@ -110,7 +110,7 @@ header {
     text-align: center;
     color: #fff;
     min-height: 100vh;
-    padding-bottom: 5vh;
+    padding: 5vh 0;
     background: #{{ site.color.secondary }};
 }
 
