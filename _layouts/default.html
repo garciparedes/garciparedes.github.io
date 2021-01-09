@@ -30,7 +30,7 @@
     <!-- Custom CSS & Bootstrap Core CSS - Uses Bootswatch Flatly Theme: http://bootswatch.com/flatly/ -->
     <link 
       rel="stylesheet" 
-      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
     >
     <link 
       rel="stylesheet" 
@@ -56,7 +56,7 @@
   <body id="page-top" class="index">
     <header id="headers" class="outer-center-container">
       <div class="container inner-center-container">
-        <div class="img-profile img-responsive img-centered img-circle">
+        <div class="img-profile img-responsive img-centered rounded-circle">
         </div>
         <div class="intro-text">
           <span class="name">{{ site.title }}</span>
@@ -64,14 +64,14 @@
           <span class="skills">{{ site.skills }}</span>
           <ul class="list-inline">
             {% for network in site.social %}
-            <li>
+            <li class="list-inline-item">
               <a target="_blank" href="{{ network.url }}" class="btn-social btn-outline">
                 <i class="{{ network.icon }}" title="{{ network.title }}"></i>
               </a>
             </li>
             {% endfor %}
           </ul>
-          <div class="col-md-10 col-md-offset-1 col-lg-8 col-lg-offset-2 col-xl-4 col-xl-offset-4">
+          <div class="col-md-10 offset-md-1 col-lg-8 offset-lg-2 col-xl-6 offset-xl-3">
             <p class="text-justify">
             {{ site.description }}
             </p>
@@ -109,23 +109,14 @@
         </div>
       </div>
     </header>
-    <!-- jQuery Version 1.11.0 -->
-    <script
-      type="text/javascript" 
-      src="https://code.jquery.com/jquery-1.12.4.min.js"
-    />
-
-    <!-- Bootstrap Core JavaScript -->
+    
     <script 
       type="text/javascript" 
-      src="https://stackpath.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
     />
-
-    <!-- Plugin JavaScript -->
     <script 
       type="text/javascript" 
-      async 
-      src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
     />
 
     <!-- Google Analytics -->
