@@ -69,6 +69,7 @@ hr.star-primary {
     background: url(/assets/img/profile.jpg) no-repeat;
     background-position: center center;
     background-size: cover;
+    border: 3px solid;
     height: 35vh;
     width: 35vh;
 }
