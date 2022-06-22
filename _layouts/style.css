@@ -5,14 +5,18 @@
  */
 body {
   font-family: 'Roboto';
+  overflow: hidden;
+  overflow-x: hidden;
+  background: #{{ site.color.secondary }};
+}
+
+canvas {
+    position: fixed;
+    z-index: -1;
 }
 
 .container {
   max-width: 860px;
-}
-
-body {
-    overflow-x: hidden;
 }
 
 p {
@@ -112,7 +116,6 @@ header {
     color: #fff;
     min-height: 100vh;
     padding: 5vh 0;
-    background: #{{ site.color.secondary }};
 }
 
 header img {
